@@ -1,0 +1,87 @@
+{
+  "versions_available": {
+    "v1": true,
+    "v2": true,
+    "v3": true
+  },
+  "app_counts": {
+    "v1": 100,
+    "v2": 100,
+    "v3": 100
+  },
+  "v1_stats": {
+    "self_serve_dist": {
+      "self-serve": 86,
+      "gated": 12,
+      "mixed": 2
+    },
+    "blocker_dist": {
+      "none": 88,
+      "needs partnership": 5,
+      "needs paid plan": 6,
+      "no public API": 1
+    },
+    "confidence_dist": {
+      "high": 96,
+      "med": 3,
+      "low": 1
+    },
+    "buildability_dist": {
+      "buildable today": 88,
+      "needs work": 10,
+      "blocked": 2
+    },
+    "avg_auth_methods_per_app": 1.52
+  },
+  "v2_stats": {
+    "self_serve_dist": {
+      "self-serve": 88,
+      "gated": 9,
+      "mixed": 3
+    },
+    "blocker_dist": {
+      "none": 89,
+      "needs partnership": 5,
+      "needs paid plan": 6
+    },
+    "confidence_dist": {
+      "high": 100
+    },
+    "buildability_dist": {
+      "buildable today": 89,
+      "needs work": 8,
+      "blocked": 3
+    },
+    "avg_auth_methods_per_app": 1.51
+  },
+  "v3_stats": {
+    "self_serve_dist": {
+      "self-serve": 80,
+      "mixed": 8,
+      "gated": 12
+    },
+    "blocker_dist": {
+      "none": 80,
+      "auth complexity": 2,
+      "needs paid plan": 7,
+      "needs partnership": 11
+    },
+    "confidence_dist": {
+      "high": 99,
+      "low": 1
+    },
+    "buildability_dist": {
+      "buildable today": 80,
+      "needs work": 9,
+      "blocked": 11
+    },
+    "avg_auth_methods_per_app": 1.44,
+    "needs_review_count": 0
+  },
+  "v1_to_v3_changes": {
+    "auth_methods_changed": 57,
+    "self_serve_changed": 24,
+    "blocker_changed": 23,
+    "total_apps_compared": 100
+  }
+}

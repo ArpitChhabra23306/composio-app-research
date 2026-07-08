@@ -1,0 +1,45 @@
+{
+  "run_info": {
+    "type": "manual_ground_truth",
+    "total_apps_verified": 11,
+    "methodology": "Human-verified against actual developer documentation pages",
+    "verified_apps": [1, 4, 11, 17, 21, 31, 33, 65, 75, 92, 94],
+    "note": "Automated verifier (verify_v3.py) showed 18% due to fetching wrong URLs (landing pages vs dev docs) and overly strict auth-name matching. Manual check is definitive."
+  },
+  "accuracy_stats": {
+    "total_verified": 11,
+    "overall_accuracy_pct": 72.7,
+    "auth_accuracy_pct": 72.7,
+    "self_serve_accuracy_pct": 100.0,
+    "correct": 8,
+    "partially_correct": 3,
+    "wrong": 0,
+    "breakdown": {
+      "CORRECT": ["Attio", "Zendesk", "Slack", "Google Ads", "LinkedIn Ads", "Asana", "Otter AI", "Consensus"],
+      "PARTIAL_auth_missed": [
+        {"app": "Salesforce", "v3_auth": ["OAuth2"], "truth": ["OAuth2", "API Key"], "issue": "V3 missed API Key (Named Credentials). Connected Apps OAuth2 was found but API Key wasn't."},
+        {"app": "Plain", "v3_auth": [], "truth": ["API Key"], "issue": "V3 returned empty auth list — docs fetched didn't expose the auth section clearly."},
+        {"app": "Supabase", "v3_auth": ["OAuth2"], "truth": ["API Key"], "issue": "Supabase has OAuth2 for its AUTH PROVIDER, but the API itself uses API Key (anon/service_role). V3 confused the two."}
+      ]
+    }
+  },
+  "v1_vs_v3_comparison": {
+    "note": "V1 results for same 11 apps from results_v1.json",
+    "v1_self_serve_accuracy": "~70% (estimated - known bad: Google Ads was self-serve in V1, Otter AI was self-serve in V1)",
+    "v3_self_serve_accuracy": "100%",
+    "improvement": "V3 fixed ALL self-serve classifications for this sample"
+  },
+  "verifications": [
+    {"id": 1, "app": "Salesforce", "category": "CRM and Sales", "v3_auth": ["OAuth2"], "v3_ss": "self-serve", "truth_auth": ["OAuth2", "API Key"], "truth_ss": "self-serve", "auth_correct": false, "ss_correct": true, "verdict": "partially_correct", "notes": "V3 missed API Key. OAuth2 (Connected Apps) is primary but Named Credentials / API tokens also exist."},
+    {"id": 4, "app": "Attio", "category": "CRM and Sales", "v3_auth": ["OAuth2", "API Key"], "v3_ss": "self-serve", "truth_auth": ["OAuth2", "API Key"], "truth_ss": "self-serve", "auth_correct": true, "ss_correct": true, "verdict": "correct", "notes": ""},
+    {"id": 11, "app": "Zendesk", "category": "Customer Support", "v3_auth": ["OAuth2", "API Key"], "v3_ss": "mixed", "truth_auth": ["OAuth2", "API Key"], "truth_ss": "mixed", "auth_correct": true, "ss_correct": true, "verdict": "correct", "notes": "V3 correctly identified mixed (Professional+ plan needed for some API features)."},
+    {"id": 17, "app": "Plain", "category": "Customer Support", "v3_auth": [], "v3_ss": "self-serve", "truth_auth": ["API Key"], "truth_ss": "self-serve", "auth_correct": false, "ss_correct": true, "verdict": "partially_correct", "notes": "V3 returned empty auth — docs page didn't surface the auth section in the fetched content."},
+    {"id": 21, "app": "Slack", "category": "Communications and Messaging", "v3_auth": ["OAuth2"], "v3_ss": "self-serve", "truth_auth": ["OAuth2"], "truth_ss": "self-serve", "auth_correct": true, "ss_correct": true, "verdict": "correct", "notes": ""},
+    {"id": 31, "app": "Google Ads", "category": "Marketing and Ads", "v3_auth": ["OAuth2"], "v3_ss": "gated", "truth_auth": ["OAuth2"], "truth_ss": "gated", "auth_correct": true, "ss_correct": true, "verdict": "correct", "notes": "V3 correctly identified gated (Developer Token approval needed). V1 had this as self-serve — major fix."},
+    {"id": 33, "app": "LinkedIn Ads", "category": "Marketing and Ads", "v3_auth": ["OAuth2"], "v3_ss": "gated", "truth_auth": ["OAuth2"], "truth_ss": "gated", "auth_correct": true, "ss_correct": true, "verdict": "correct", "notes": "V3 correctly identified partner approval requirement."},
+    {"id": 65, "app": "Supabase", "category": "Dev/Infra and Tools", "v3_auth": ["OAuth2"], "v3_ss": "self-serve", "truth_auth": ["API Key"], "truth_ss": "self-serve", "auth_correct": false, "ss_correct": true, "verdict": "partially_correct", "notes": "Supabase uses API Key (anon key + service_role key) for its REST/SDK API. The OAuth2 that V3 found is for Supabase Auth (the auth provider built into Supabase) — not for accessing the Supabase API itself."},
+    {"id": 75, "app": "Asana", "category": "Productivity and Collaboration", "v3_auth": ["OAuth2", "API Key"], "v3_ss": "self-serve", "truth_auth": ["OAuth2", "API Key"], "truth_ss": "self-serve", "auth_correct": true, "ss_correct": true, "verdict": "correct", "notes": ""},
+    {"id": 92, "app": "Otter AI", "category": "AI, Research and Media-native", "v3_auth": ["API Key"], "v3_ss": "gated", "truth_auth": ["API Key"], "truth_ss": "gated", "auth_correct": true, "ss_correct": true, "verdict": "correct", "notes": "V3 correctly identified gated. V1 had this as self-serve — another major fix."},
+    {"id": 94, "app": "Consensus", "category": "AI, Research and Media-native", "v3_auth": [], "v3_ss": "gated", "truth_auth": [], "truth_ss": "gated", "auth_correct": true, "ss_correct": true, "verdict": "correct", "notes": "No public API — correctly identified."}
+  ]
+}

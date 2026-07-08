@@ -1,0 +1,294 @@
+{
+  "run_info": {
+    "total_apps_in_v3": 100,
+    "sample_size": 11,
+    "model": "gpt-4o",
+    "stratification": "5 known_bad + 5 high_conf + 5 med_conf + 5 low_conf/review"
+  },
+  "accuracy_stats": {
+    "total_verified": 11,
+    "overall_accuracy_pct": 18.2,
+    "correct": 2,
+    "partially_correct": 6,
+    "wrong": 3,
+    "auth_accuracy_pct": 27.3,
+    "self_serve_accuracy_pct": 54.5,
+    "buildability_accuracy_pct": 54.5
+  },
+  "verifications": [
+    {
+      "id": 1,
+      "app": "Salesforce",
+      "category": "CRM and Sales",
+      "agent_conf": "high",
+      "v3_auth": [
+        "OAuth2"
+      ],
+      "v3_ss": "self-serve",
+      "v3_blocker": "none",
+      "v3_buildability": "buildable today",
+      "v1_auth": [
+        "OAuth2",
+        "API Key"
+      ],
+      "v1_ss": "self-serve",
+      "auth_correct": false,
+      "auth_found": [],
+      "ss_correct": true,
+      "ss_found": "self-serve",
+      "build_correct": true,
+      "verdict": "partially_correct",
+      "fresh_url": "https://salesforce.com",
+      "notes": "The documentation does not mention any specific authentication methods, so the claim about 'OAuth2' cannot be verified. The self-serve aspect is supported by the mention of 'Start for free,' indicating self-serve access. The documentation suggests that Salesforce is buildable today with no blockers mentioned."
+    },
+    {
+      "id": 4,
+      "app": "Attio",
+      "category": "CRM and Sales",
+      "agent_conf": "high",
+      "v3_auth": [
+        "OAuth2",
+        "API Key"
+      ],
+      "v3_ss": "self-serve",
+      "v3_blocker": "none",
+      "v3_buildability": "buildable today",
+      "v1_auth": [
+        "OAuth2"
+      ],
+      "v1_ss": "self-serve",
+      "auth_correct": false,
+      "auth_found": [],
+      "ss_correct": true,
+      "ss_found": "self-serve",
+      "build_correct": true,
+      "verdict": "partially_correct",
+      "fresh_url": "https://attio.com",
+      "notes": "The documentation does not mention any specific authentication methods like OAuth2 or API Key, so the auth_methods claim cannot be verified. The self_serve claim is correct as the docs mention 'Start for free', indicating a self-serve model. The buildability claim is correct as there are no blockers mentioned in the documentation."
+    },
+    {
+      "id": 11,
+      "app": "Zendesk",
+      "category": "Support and Helpdesk",
+      "agent_conf": "high",
+      "v3_auth": [
+        "OAuth2",
+        "API Key"
+      ],
+      "v3_ss": "mixed",
+      "v3_blocker": "needs paid plan",
+      "v3_buildability": "needs work",
+      "v1_auth": [
+        "OAuth2"
+      ],
+      "v1_ss": "self-serve",
+      "auth_correct": false,
+      "auth_found": [],
+      "ss_correct": true,
+      "ss_found": "mixed",
+      "build_correct": false,
+      "verdict": "partially_correct",
+      "fresh_url": "https://zendesk.com",
+      "notes": "The documentation does not mention specific authentication methods like OAuth2 or API Key. The self-serve aspect is correctly classified as mixed, as there is mention of a 14-day free trial and options to try for free, indicating both free and paid access. The buildability claim is not directly addressed in the documentation, so it cannot be confirmed."
+    },
+    {
+      "id": 17,
+      "app": "Plain",
+      "category": "Support and Helpdesk",
+      "agent_conf": "high",
+      "v3_auth": [],
+      "v3_ss": "self-serve",
+      "v3_blocker": "none",
+      "v3_buildability": "buildable today",
+      "v1_auth": [
+        "API Key"
+      ],
+      "v1_ss": "self-serve",
+      "auth_correct": true,
+      "auth_found": [],
+      "ss_correct": true,
+      "ss_found": "self-serve",
+      "build_correct": true,
+      "verdict": "correct",
+      "fresh_url": "https://plain.com",
+      "notes": "The documentation does not mention any specific authentication methods, which matches the claim of an empty list. The self-serve aspect is supported by the mention of 'Start for free' and 'Sidekick — try for free in Beta', indicating self-serve access. The buildability is supported by the documentation's emphasis on extensibility and API-first design, suggesting it is buildable today."
+    },
+    {
+      "id": 21,
+      "app": "Slack",
+      "category": "Communications and Messaging",
+      "agent_conf": "high",
+      "v3_auth": [
+        "OAuth2"
+      ],
+      "v3_ss": "self-serve",
+      "v3_blocker": "none",
+      "v3_buildability": "buildable today",
+      "v1_auth": [
+        "OAuth2"
+      ],
+      "v1_ss": "self-serve",
+      "auth_correct": false,
+      "auth_found": [],
+      "ss_correct": false,
+      "ss_found": "mixed based on docs",
+      "build_correct": false,
+      "verdict": "wrong",
+      "fresh_url": "https://slack.com",
+      "notes": "The fresh docs content does not mention any specific authentication methods like OAuth2. The self-serve aspect is not clearly defined, but there are mentions of getting started and finding a plan, suggesting a mixed model. There is no explicit mention of buildability or blockers in the docs."
+    },
+    {
+      "id": 31,
+      "app": "Google Ads",
+      "category": "Marketing, Ads, Email and Social",
+      "agent_conf": "high",
+      "v3_auth": [
+        "OAuth2"
+      ],
+      "v3_ss": "gated",
+      "v3_blocker": "needs partnership",
+      "v3_buildability": "blocked",
+      "v1_auth": [
+        "OAuth2"
+      ],
+      "v1_ss": "self-serve",
+      "auth_correct": false,
+      "auth_found": [],
+      "ss_correct": false,
+      "ss_found": "self-serve",
+      "build_correct": false,
+      "verdict": "wrong",
+      "fresh_url": "https://developers.google.com/google-ads",
+      "notes": "The docs do not mention any specific authentication methods, so OAuth2 cannot be confirmed. The content suggests self-serve access by mentioning building applications and scripts, contradicting the 'gated' claim. There is no indication of needing a partnership, so the 'blocked' buildability claim is incorrect."
+    },
+    {
+      "id": 33,
+      "app": "LinkedIn Ads",
+      "category": "Marketing, Ads, Email and Social",
+      "agent_conf": "high",
+      "v3_auth": [
+        "OAuth2"
+      ],
+      "v3_ss": "gated",
+      "v3_blocker": "needs partnership",
+      "v3_buildability": "blocked",
+      "v1_auth": [
+        "OAuth2"
+      ],
+      "v1_ss": "gated",
+      "auth_correct": true,
+      "auth_found": [
+        "OAuth2"
+      ],
+      "ss_correct": false,
+      "ss_found": "mixed based on docs",
+      "build_correct": false,
+      "verdict": "partially_correct",
+      "fresh_url": "https://learn.microsoft.com/linkedin/marketing",
+      "notes": "The documentation confirms the use of OAuth2 for authentication, matching the claim. However, there is no specific mention of self-serve being gated or requiring a partnership, indicating a mixed or unclear status. The claim about buildability being blocked due to needing a partnership is not supported by the provided documentation."
+    },
+    {
+      "id": 65,
+      "app": "Supabase",
+      "category": "Developer, Infra and Data platforms",
+      "agent_conf": "high",
+      "v3_auth": [
+        "OAuth2"
+      ],
+      "v3_ss": "self-serve",
+      "v3_blocker": "none",
+      "v3_buildability": "buildable today",
+      "v1_auth": [
+        "OAuth2",
+        "other"
+      ],
+      "v1_ss": "gated",
+      "auth_correct": false,
+      "auth_found": [
+        "OAuth 2.0",
+        "OIDC",
+        "SAML 2.0"
+      ],
+      "ss_correct": true,
+      "ss_found": "self-serve",
+      "build_correct": true,
+      "verdict": "partially_correct",
+      "fresh_url": "https://supabase.com/docs",
+      "notes": "The auth_methods claim is incorrect as the docs list OAuth 2.0, OIDC, and SAML 2.0, not just OAuth2. The self_serve claim is correct as the docs imply self-serve access. The buildability claim is correct as there are no blockers mentioned in the docs."
+    },
+    {
+      "id": 75,
+      "app": "Asana",
+      "category": "Productivity and Project Management",
+      "agent_conf": "high",
+      "v3_auth": [
+        "OAuth2",
+        "API Key"
+      ],
+      "v3_ss": "self-serve",
+      "v3_blocker": "none",
+      "v3_buildability": "buildable today",
+      "v1_auth": [
+        "OAuth2",
+        "API Key"
+      ],
+      "v1_ss": "self-serve",
+      "auth_correct": false,
+      "auth_found": [
+        "token"
+      ],
+      "ss_correct": false,
+      "ss_found": "mixed based on docs",
+      "build_correct": true,
+      "verdict": "partially_correct",
+      "fresh_url": "https://developers.asana.com",
+      "notes": "The docs mention authorization with a token but do not specify OAuth2 or API Key. There is no clear indication of self-serve or gated access, suggesting a mixed model. Buildability is supported by the quick start guide and tutorials."
+    },
+    {
+      "id": 92,
+      "app": "Otter AI",
+      "category": "AI, Research and Media-native",
+      "agent_conf": "high",
+      "v3_auth": [
+        "API Key"
+      ],
+      "v3_ss": "gated",
+      "v3_blocker": "needs partnership",
+      "v3_buildability": "blocked",
+      "v1_auth": [
+        "API Key"
+      ],
+      "v1_ss": "gated",
+      "auth_correct": false,
+      "auth_found": [],
+      "ss_correct": false,
+      "ss_found": "mixed based on docs",
+      "build_correct": false,
+      "verdict": "wrong",
+      "fresh_url": "https://help.otter.ai",
+      "notes": "The fresh docs content does not mention any authentication methods, so the claim about 'API Key' cannot be verified. There is no specific information about self-serve or gated access, but the presence of enterprise onboarding and admin controls suggests a mixed model. There is no mention of needing a partnership or being blocked for buildability."
+    },
+    {
+      "id": 94,
+      "app": "Consensus",
+      "category": "AI, Research and Media-native",
+      "agent_conf": "low",
+      "v3_auth": [],
+      "v3_ss": "gated",
+      "v3_blocker": "needs partnership",
+      "v3_buildability": "blocked",
+      "v1_auth": [
+        "API Key"
+      ],
+      "v1_ss": "self-serve",
+      "auth_correct": true,
+      "auth_found": [],
+      "ss_correct": true,
+      "ss_found": "gated",
+      "build_correct": true,
+      "verdict": "correct",
+      "fresh_url": "https://consensus.app",
+      "notes": "The documentation does not mention any specific authentication methods, which matches the claim of an empty list. The self-serve access is indicated as gated due to the need for partnerships with universities and organizations. The buildability is blocked as it requires partnerships, which aligns with the claim."
+    }
+  ]
+}

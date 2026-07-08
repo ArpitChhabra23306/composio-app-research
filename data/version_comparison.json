@@ -1,0 +1,2743 @@
+[
+  {
+    "id": 1,
+    "app": "Salesforce",
+    "category": "CRM and Sales",
+    "v1_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "OAuth2"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "OAuth2"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": true,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 2,
+    "app": "HubSpot",
+    "category": "CRM and Sales",
+    "v1_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": false,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 3,
+    "app": "Pipedrive",
+    "category": "CRM and Sales",
+    "v1_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "OAuth2"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": true,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 4,
+    "app": "Attio",
+    "category": "CRM and Sales",
+    "v1_auth": [
+      "OAuth2"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": true,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 5,
+    "app": "Twenty",
+    "category": "CRM and Sales",
+    "v1_auth": [
+      "API Key",
+      "OAuth2"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "API Key",
+      "OAuth2"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": true,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 6,
+    "app": "Podio",
+    "category": "CRM and Sales",
+    "v1_auth": [
+      "API Key"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "API Key"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": true,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 7,
+    "app": "Zoho CRM",
+    "category": "CRM and Sales",
+    "v1_auth": [
+      "OAuth2"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "OAuth2"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "OAuth2"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": false,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 8,
+    "app": "Close",
+    "category": "CRM and Sales",
+    "v1_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": false,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 9,
+    "app": "Copper",
+    "category": "CRM and Sales",
+    "v1_auth": [
+      "API Key",
+      "OAuth2"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "API Key",
+      "OAuth2"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v3_ss": "mixed",
+    "v3_blk": "auth complexity",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": true,
+    "ss_changed_v1_v3": true,
+    "blk_changed_v1_v3": true
+  },
+  {
+    "id": 10,
+    "app": "DealCloud",
+    "category": "CRM and Sales",
+    "v1_auth": [
+      "OAuth2"
+    ],
+    "v1_ss": "gated",
+    "v1_blk": "needs partnership",
+    "v1_conf": "high",
+    "v2_auth": [
+      "OAuth2"
+    ],
+    "v2_ss": "gated",
+    "v2_blk": "needs partnership",
+    "v2_conf": "high",
+    "v3_auth": [
+      "API Key"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": true,
+    "ss_changed_v1_v3": true,
+    "blk_changed_v1_v3": true
+  },
+  {
+    "id": 11,
+    "app": "Zendesk",
+    "category": "Support and Helpdesk",
+    "v1_auth": [
+      "OAuth2"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v2_ss": "mixed",
+    "v2_blk": "needs paid plan",
+    "v2_conf": "high",
+    "v3_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v3_ss": "mixed",
+    "v3_blk": "needs paid plan",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": true,
+    "ss_changed_v1_v3": true,
+    "blk_changed_v1_v3": true
+  },
+  {
+    "id": 12,
+    "app": "Intercom",
+    "category": "Support and Helpdesk",
+    "v1_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": false,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 13,
+    "app": "Freshdesk",
+    "category": "Support and Helpdesk",
+    "v1_auth": [
+      "API Key"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "API Key"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": true,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 14,
+    "app": "Front",
+    "category": "Support and Helpdesk",
+    "v1_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": false,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 15,
+    "app": "Pylon",
+    "category": "Support and Helpdesk",
+    "v1_auth": [
+      "API Key"
+    ],
+    "v1_ss": "gated",
+    "v1_blk": "needs partnership",
+    "v1_conf": "med",
+    "v2_auth": [
+      "API Key"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "API Key"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": false,
+    "ss_changed_v1_v3": true,
+    "blk_changed_v1_v3": true
+  },
+  {
+    "id": 16,
+    "app": "LiveAgent",
+    "category": "Support and Helpdesk",
+    "v1_auth": [
+      "API Key"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "API Key"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "API Key"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": false,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 17,
+    "app": "Plain",
+    "category": "Support and Helpdesk",
+    "v1_auth": [
+      "API Key"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "API Key"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": true,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 18,
+    "app": "Help Scout",
+    "category": "Support and Helpdesk",
+    "v1_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": false,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 19,
+    "app": "Gorgias",
+    "category": "Support and Helpdesk",
+    "v1_auth": [
+      "API Key",
+      "Basic"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "API Key",
+      "Basic"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": true,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 20,
+    "app": "Gladly",
+    "category": "Support and Helpdesk",
+    "v1_auth": [
+      "OAuth2"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "OAuth2"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "API Key",
+      "Basic"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": true,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 21,
+    "app": "Slack",
+    "category": "Communications and Messaging",
+    "v1_auth": [
+      "OAuth2"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "OAuth2"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "OAuth2"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": false,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 22,
+    "app": "Twilio",
+    "category": "Communications and Messaging",
+    "v1_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": false,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 23,
+    "app": "Zoho Cliq",
+    "category": "Communications and Messaging",
+    "v1_auth": [
+      "OAuth2"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "OAuth2"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "OAuth2"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": false,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 24,
+    "app": "Lark (Larksuite)",
+    "category": "Communications and Messaging",
+    "v1_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "OAuth2"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": true,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 25,
+    "app": "Pumble",
+    "category": "Communications and Messaging",
+    "v1_auth": [
+      "API Key"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "API Key"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "API Key"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": false,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 26,
+    "app": "Discord",
+    "category": "Communications and Messaging",
+    "v1_auth": [
+      "OAuth2"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "OAuth2"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "OAuth2"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": false,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 27,
+    "app": "Telegram",
+    "category": "Communications and Messaging",
+    "v1_auth": [
+      "API Key",
+      "other"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "API Key",
+      "other"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "API Key"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": true,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 28,
+    "app": "WhatsApp Business",
+    "category": "Communications and Messaging",
+    "v1_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "OAuth2"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": true,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 29,
+    "app": "Aircall",
+    "category": "Communications and Messaging",
+    "v1_auth": [
+      "Basic"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "Basic"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "OAuth2",
+      "Basic"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": true,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 30,
+    "app": "Vonage",
+    "category": "Communications and Messaging",
+    "v1_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": false,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 31,
+    "app": "Google Ads",
+    "category": "Marketing, Ads, Email and Social",
+    "v1_auth": [
+      "OAuth2"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "OAuth2"
+    ],
+    "v2_ss": "gated",
+    "v2_blk": "needs partnership",
+    "v2_conf": "high",
+    "v3_auth": [
+      "OAuth2"
+    ],
+    "v3_ss": "gated",
+    "v3_blk": "needs partnership",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": false,
+    "ss_changed_v1_v3": true,
+    "blk_changed_v1_v3": true
+  },
+  {
+    "id": 32,
+    "app": "Meta Ads",
+    "category": "Marketing, Ads, Email and Social",
+    "v1_auth": [
+      "OAuth2"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "OAuth2"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": true,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 33,
+    "app": "LinkedIn Ads",
+    "category": "Marketing, Ads, Email and Social",
+    "v1_auth": [
+      "OAuth2"
+    ],
+    "v1_ss": "gated",
+    "v1_blk": "needs partnership",
+    "v1_conf": "high",
+    "v2_auth": [
+      "OAuth2"
+    ],
+    "v2_ss": "gated",
+    "v2_blk": "needs partnership",
+    "v2_conf": "high",
+    "v3_auth": [
+      "OAuth2"
+    ],
+    "v3_ss": "gated",
+    "v3_blk": "needs partnership",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": false,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 34,
+    "app": "GoHighLevel",
+    "category": "Marketing, Ads, Email and Social",
+    "v1_auth": [
+      "OAuth2",
+      "token"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "OAuth2",
+      "token"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": true,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 35,
+    "app": "Mailchimp",
+    "category": "Marketing, Ads, Email and Social",
+    "v1_auth": [
+      "API Key"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "API Key"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "OAuth2",
+      "API Key",
+      "Basic"
+    ],
+    "v3_ss": "mixed",
+    "v3_blk": "needs paid plan",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": true,
+    "ss_changed_v1_v3": true,
+    "blk_changed_v1_v3": true
+  },
+  {
+    "id": 36,
+    "app": "Klaviyo",
+    "category": "Marketing, Ads, Email and Social",
+    "v1_auth": [
+      "API Key"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "API Key"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": true,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 37,
+    "app": "systeme.io",
+    "category": "Marketing, Ads, Email and Social",
+    "v1_auth": [
+      "API Key"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "API Key"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "API Key"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": false,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 38,
+    "app": "Pinterest",
+    "category": "Marketing, Ads, Email and Social",
+    "v1_auth": [
+      "OAuth2"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "OAuth2"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "OAuth2"
+    ],
+    "v3_ss": "gated",
+    "v3_blk": "needs partnership",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": false,
+    "ss_changed_v1_v3": true,
+    "blk_changed_v1_v3": true
+  },
+  {
+    "id": 39,
+    "app": "Threads (Meta)",
+    "category": "Marketing, Ads, Email and Social",
+    "v1_auth": [
+      "OAuth2"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "OAuth2"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "OAuth2"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": false,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 40,
+    "app": "SendGrid",
+    "category": "Marketing, Ads, Email and Social",
+    "v1_auth": [
+      "API Key",
+      "Basic"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "API Key",
+      "Basic"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "API Key"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": true,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 41,
+    "app": "Shopify",
+    "category": "Ecommerce",
+    "v1_auth": [
+      "OAuth2",
+      "token"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": true,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 42,
+    "app": "WooCommerce",
+    "category": "Ecommerce",
+    "v1_auth": [
+      "API Key",
+      "Basic"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "API Key",
+      "Basic"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "API Key",
+      "Basic"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": false,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 43,
+    "app": "BigCommerce",
+    "category": "Ecommerce",
+    "v1_auth": [
+      "OAuth2"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "OAuth2"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "OAuth2"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": false,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 44,
+    "app": "Salesforce Commerce Cloud",
+    "category": "Ecommerce",
+    "v1_auth": [
+      "OAuth2"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "OAuth2"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "OAuth2"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": false,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 45,
+    "app": "Magento (Adobe Commerce)",
+    "category": "Ecommerce",
+    "v1_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "OAuth2"
+    ],
+    "v3_ss": "gated",
+    "v3_blk": "needs partnership",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": true,
+    "ss_changed_v1_v3": true,
+    "blk_changed_v1_v3": true
+  },
+  {
+    "id": 46,
+    "app": "Squarespace",
+    "category": "Ecommerce",
+    "v1_auth": [
+      "other"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "other"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v3_ss": "mixed",
+    "v3_blk": "needs paid plan",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": true,
+    "ss_changed_v1_v3": true,
+    "blk_changed_v1_v3": true
+  },
+  {
+    "id": 47,
+    "app": "Ecwid",
+    "category": "Ecommerce",
+    "v1_auth": [
+      "API Key"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "API Key"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "OAuth2"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": true,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 48,
+    "app": "Gumroad",
+    "category": "Ecommerce",
+    "v1_auth": [
+      "OAuth2"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "OAuth2"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "OAuth2"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": false,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 49,
+    "app": "Amazon Selling Partner",
+    "category": "Ecommerce",
+    "v1_auth": [
+      "OAuth2"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "OAuth2"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v3_ss": "mixed",
+    "v3_blk": "needs paid plan",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": true,
+    "ss_changed_v1_v3": true,
+    "blk_changed_v1_v3": true
+  },
+  {
+    "id": 50,
+    "app": "fanbasis",
+    "category": "Ecommerce",
+    "v1_auth": [
+      "API Key"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "API Key"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "API Key"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": false,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 51,
+    "app": "DataForSEO",
+    "category": "Data, SEO and Scraping",
+    "v1_auth": [
+      "Basic"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "Basic"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "Basic"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": false,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 52,
+    "app": "SE Ranking",
+    "category": "Data, SEO and Scraping",
+    "v1_auth": [
+      "API Key"
+    ],
+    "v1_ss": "gated",
+    "v1_blk": "needs paid plan",
+    "v1_conf": "high",
+    "v2_auth": [
+      "API Key"
+    ],
+    "v2_ss": "gated",
+    "v2_blk": "needs paid plan",
+    "v2_conf": "high",
+    "v3_auth": [
+      "API Key"
+    ],
+    "v3_ss": "mixed",
+    "v3_blk": "needs paid plan",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": false,
+    "ss_changed_v1_v3": true,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 53,
+    "app": "Ahrefs",
+    "category": "Data, SEO and Scraping",
+    "v1_auth": [
+      "API Key",
+      "OAuth2"
+    ],
+    "v1_ss": "mixed",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": true,
+    "ss_changed_v1_v3": true,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 54,
+    "app": "MrScraper",
+    "category": "Data, SEO and Scraping",
+    "v1_auth": [
+      "API Key"
+    ],
+    "v1_ss": "gated",
+    "v1_blk": "needs partnership",
+    "v1_conf": "med",
+    "v2_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": true,
+    "ss_changed_v1_v3": true,
+    "blk_changed_v1_v3": true
+  },
+  {
+    "id": 55,
+    "app": "Apify",
+    "category": "Data, SEO and Scraping",
+    "v1_auth": [
+      "API Key",
+      "other"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "API Key",
+      "other"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "API Key"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": true,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 56,
+    "app": "Firecrawl",
+    "category": "Data, SEO and Scraping",
+    "v1_auth": [
+      "API Key"
+    ],
+    "v1_ss": "gated",
+    "v1_blk": "needs paid plan",
+    "v1_conf": "high",
+    "v2_auth": [
+      "API Key"
+    ],
+    "v2_ss": "gated",
+    "v2_blk": "needs paid plan",
+    "v2_conf": "high",
+    "v3_auth": [
+      "API Key"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": false,
+    "ss_changed_v1_v3": true,
+    "blk_changed_v1_v3": true
+  },
+  {
+    "id": 57,
+    "app": "Bright Data",
+    "category": "Data, SEO and Scraping",
+    "v1_auth": [
+      "API Key",
+      "other"
+    ],
+    "v1_ss": "gated",
+    "v1_blk": "needs paid plan",
+    "v1_conf": "high",
+    "v2_auth": [
+      "API Key",
+      "other"
+    ],
+    "v2_ss": "gated",
+    "v2_blk": "needs paid plan",
+    "v2_conf": "high",
+    "v3_auth": [
+      "API Key",
+      "Basic"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": true,
+    "ss_changed_v1_v3": true,
+    "blk_changed_v1_v3": true
+  },
+  {
+    "id": 58,
+    "app": "Sherlock",
+    "category": "Data, SEO and Scraping",
+    "v1_auth": [
+      "other"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "other"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": true,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 59,
+    "app": "Waterfall.io",
+    "category": "Data, SEO and Scraping",
+    "v1_auth": [
+      "API Key"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "API Key"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "API Key"
+    ],
+    "v3_ss": "gated",
+    "v3_blk": "needs partnership",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": false,
+    "ss_changed_v1_v3": true,
+    "blk_changed_v1_v3": true
+  },
+  {
+    "id": 60,
+    "app": "Clay",
+    "category": "Data, SEO and Scraping",
+    "v1_auth": [
+      "API Key",
+      "token",
+      "other"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": true,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 61,
+    "app": "GitHub",
+    "category": "Developer, Infra and Data platforms",
+    "v1_auth": [
+      "OAuth2",
+      "API Key",
+      "token"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "OAuth2",
+      "API Key",
+      "token"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": true,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 62,
+    "app": "Vercel",
+    "category": "Developer, Infra and Data platforms",
+    "v1_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "med",
+    "v2_auth": [
+      "OAuth2"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "OAuth2"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": true,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 63,
+    "app": "Netlify",
+    "category": "Developer, Infra and Data platforms",
+    "v1_auth": [
+      "OAuth2"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "OAuth2"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": true,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 64,
+    "app": "Cloudflare",
+    "category": "Developer, Infra and Data platforms",
+    "v1_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": false,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 65,
+    "app": "Supabase",
+    "category": "Developer, Infra and Data platforms",
+    "v1_auth": [
+      "OAuth2",
+      "other"
+    ],
+    "v1_ss": "gated",
+    "v1_blk": "needs paid plan",
+    "v1_conf": "high",
+    "v2_auth": [
+      "OAuth2"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "OAuth2"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": true,
+    "ss_changed_v1_v3": true,
+    "blk_changed_v1_v3": true
+  },
+  {
+    "id": 66,
+    "app": "Neo4j",
+    "category": "Developer, Infra and Data platforms",
+    "v1_auth": [
+      "API Key",
+      "OAuth2"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "API Key",
+      "OAuth2"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "Basic",
+      "other"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": true,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 67,
+    "app": "Snowflake",
+    "category": "Developer, Infra and Data platforms",
+    "v1_auth": [
+      "OAuth2",
+      "API Key",
+      "Basic",
+      "token",
+      "other"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "OAuth2",
+      "API Key",
+      "Basic",
+      "token",
+      "other"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "OAuth2"
+    ],
+    "v3_ss": "gated",
+    "v3_blk": "auth complexity",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": true,
+    "ss_changed_v1_v3": true,
+    "blk_changed_v1_v3": true
+  },
+  {
+    "id": 68,
+    "app": "MongoDB Atlas",
+    "category": "Developer, Infra and Data platforms",
+    "v1_auth": [
+      "OAuth2",
+      "API Key",
+      "other"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "OAuth2",
+      "API Key",
+      "other"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": true,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 69,
+    "app": "Datadog",
+    "category": "Developer, Infra and Data platforms",
+    "v1_auth": [
+      "API Key",
+      "other"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "API Key",
+      "other"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": true,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 70,
+    "app": "Sentry",
+    "category": "Developer, Infra and Data platforms",
+    "v1_auth": [
+      "OAuth2",
+      "token"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "OAuth2",
+      "token"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": true,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 71,
+    "app": "Notion",
+    "category": "Productivity and Project Management",
+    "v1_auth": [
+      "OAuth2",
+      "token"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "OAuth2",
+      "token"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": true,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 72,
+    "app": "Airtable",
+    "category": "Productivity and Project Management",
+    "v1_auth": [
+      "API Key"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "API Key"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "OAuth2"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": true,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 73,
+    "app": "Linear",
+    "category": "Productivity and Project Management",
+    "v1_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": false,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 74,
+    "app": "Jira",
+    "category": "Productivity and Project Management",
+    "v1_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "OAuth2"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": true,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 75,
+    "app": "Asana",
+    "category": "Productivity and Project Management",
+    "v1_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": false,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 76,
+    "app": "Monday.com",
+    "category": "Productivity and Project Management",
+    "v1_auth": [
+      "OAuth2"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "OAuth2"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": true,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 77,
+    "app": "ClickUp",
+    "category": "Productivity and Project Management",
+    "v1_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": false,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 78,
+    "app": "Coda",
+    "category": "Productivity and Project Management",
+    "v1_auth": [
+      "API Key"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "API Key"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "OAuth2"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": true,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 79,
+    "app": "Smartsheet",
+    "category": "Productivity and Project Management",
+    "v1_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": false,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 80,
+    "app": "Harvest",
+    "category": "Productivity and Project Management",
+    "v1_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": false,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 81,
+    "app": "Stripe",
+    "category": "Finance and Fintech",
+    "v1_auth": [
+      "API Key"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": true,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 82,
+    "app": "Plaid",
+    "category": "Finance and Fintech",
+    "v1_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "OAuth2"
+    ],
+    "v3_ss": "gated",
+    "v3_blk": "needs partnership",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": true,
+    "ss_changed_v1_v3": true,
+    "blk_changed_v1_v3": true
+  },
+  {
+    "id": 83,
+    "app": "Binance",
+    "category": "Finance and Fintech",
+    "v1_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "OAuth2"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": true,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 84,
+    "app": "Paygent Connect",
+    "category": "Finance and Fintech",
+    "v1_auth": [
+      "API Key"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "API Key"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "API Key"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": false,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 85,
+    "app": "iPayX",
+    "category": "Finance and Fintech",
+    "v1_auth": [
+      "other"
+    ],
+    "v1_ss": "gated",
+    "v1_blk": "no public API",
+    "v1_conf": "low",
+    "v2_auth": [
+      "API Key"
+    ],
+    "v2_ss": "mixed",
+    "v2_blk": "needs paid plan",
+    "v2_conf": "high",
+    "v3_auth": [
+      "API Key"
+    ],
+    "v3_ss": "mixed",
+    "v3_blk": "needs paid plan",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": true,
+    "ss_changed_v1_v3": true,
+    "blk_changed_v1_v3": true
+  },
+  {
+    "id": 86,
+    "app": "QuickBooks",
+    "category": "Finance and Fintech",
+    "v1_auth": [
+      "OAuth2"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "OAuth2"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "OAuth2"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": false,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 87,
+    "app": "Xero",
+    "category": "Finance and Fintech",
+    "v1_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "OAuth2"
+    ],
+    "v3_ss": "mixed",
+    "v3_blk": "needs paid plan",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": true,
+    "ss_changed_v1_v3": true,
+    "blk_changed_v1_v3": true
+  },
+  {
+    "id": 88,
+    "app": "Brex",
+    "category": "Finance and Fintech",
+    "v1_auth": [
+      "OAuth2"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "OAuth2"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "API Key"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": true,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 89,
+    "app": "Ramp",
+    "category": "Finance and Fintech",
+    "v1_auth": [
+      "OAuth2"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "OAuth2"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v3_ss": "gated",
+    "v3_blk": "needs partnership",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": true,
+    "ss_changed_v1_v3": true,
+    "blk_changed_v1_v3": true
+  },
+  {
+    "id": 90,
+    "app": "PitchBook",
+    "category": "Finance and Fintech",
+    "v1_auth": [
+      "API Key",
+      "token"
+    ],
+    "v1_ss": "gated",
+    "v1_blk": "needs partnership",
+    "v1_conf": "high",
+    "v2_auth": [
+      "API Key"
+    ],
+    "v2_ss": "gated",
+    "v2_blk": "needs partnership",
+    "v2_conf": "high",
+    "v3_auth": [
+      "API Key"
+    ],
+    "v3_ss": "gated",
+    "v3_blk": "needs partnership",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": true,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 91,
+    "app": "NotebookLM",
+    "category": "AI, Research and Media-native",
+    "v1_auth": [
+      "OAuth2"
+    ],
+    "v1_ss": "gated",
+    "v1_blk": "needs paid plan",
+    "v1_conf": "high",
+    "v2_auth": [
+      "OAuth2"
+    ],
+    "v2_ss": "gated",
+    "v2_blk": "needs paid plan",
+    "v2_conf": "high",
+    "v3_auth": [
+      "OAuth2"
+    ],
+    "v3_ss": "gated",
+    "v3_blk": "needs partnership",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": false,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": true
+  },
+  {
+    "id": 92,
+    "app": "Otter AI",
+    "category": "AI, Research and Media-native",
+    "v1_auth": [
+      "API Key"
+    ],
+    "v1_ss": "gated",
+    "v1_blk": "needs paid plan",
+    "v1_conf": "high",
+    "v2_auth": [
+      "API Key"
+    ],
+    "v2_ss": "gated",
+    "v2_blk": "needs partnership",
+    "v2_conf": "high",
+    "v3_auth": [
+      "API Key"
+    ],
+    "v3_ss": "gated",
+    "v3_blk": "needs partnership",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": false,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": true
+  },
+  {
+    "id": 93,
+    "app": "Fathom",
+    "category": "AI, Research and Media-native",
+    "v1_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": false,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 94,
+    "app": "Consensus",
+    "category": "AI, Research and Media-native",
+    "v1_auth": [
+      "API Key"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "API Key"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [],
+    "v3_ss": "gated",
+    "v3_blk": "needs partnership",
+    "v3_conf": "low",
+    "auth_changed_v1_v3": true,
+    "ss_changed_v1_v3": true,
+    "blk_changed_v1_v3": true
+  },
+  {
+    "id": 95,
+    "app": "Reducto",
+    "category": "AI, Research and Media-native",
+    "v1_auth": [
+      "API Key"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "API Key"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "API Key"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": false,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 96,
+    "app": "Devin",
+    "category": "AI, Research and Media-native",
+    "v1_auth": [
+      "API Key",
+      "other"
+    ],
+    "v1_ss": "mixed",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "API Key",
+      "other"
+    ],
+    "v2_ss": "mixed",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "API Key"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": true,
+    "ss_changed_v1_v3": true,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 97,
+    "app": "higgsfield",
+    "category": "AI, Research and Media-native",
+    "v1_auth": [
+      "other"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "other"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "other"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": false,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 98,
+    "app": "Mermaid CLI",
+    "category": "AI, Research and Media-native",
+    "v1_auth": [],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": false,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 99,
+    "app": "YouTube Transcript",
+    "category": "AI, Research and Media-native",
+    "v1_auth": [
+      "API Key"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "API Key"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": true,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  },
+  {
+    "id": 100,
+    "app": "Grain",
+    "category": "AI, Research and Media-native",
+    "v1_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v1_ss": "self-serve",
+    "v1_blk": "none",
+    "v1_conf": "high",
+    "v2_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v2_ss": "self-serve",
+    "v2_blk": "none",
+    "v2_conf": "high",
+    "v3_auth": [
+      "OAuth2",
+      "API Key"
+    ],
+    "v3_ss": "self-serve",
+    "v3_blk": "none",
+    "v3_conf": "high",
+    "auth_changed_v1_v3": false,
+    "ss_changed_v1_v3": false,
+    "blk_changed_v1_v3": false
+  }
+]

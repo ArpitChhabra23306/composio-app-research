@@ -2,8 +2,10 @@ import os
 import json
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-RESULTS_FILE = os.path.join(BASE_DIR, "data", "results_v2.json")
-# Fallback to results_v1.json if results_v2.json is not created yet
+# Prefer V3 > V2 > V1 fallback
+RESULTS_FILE = os.path.join(BASE_DIR, "data", "results_v3.json")
+if not os.path.exists(RESULTS_FILE):
+    RESULTS_FILE = os.path.join(BASE_DIR, "data", "results_v2.json")
 if not os.path.exists(RESULTS_FILE):
     RESULTS_FILE = os.path.join(BASE_DIR, "data", "results_v1.json")
 
