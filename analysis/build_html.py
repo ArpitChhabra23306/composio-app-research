@@ -515,7 +515,7 @@ def build():
       The research agent was built using the <strong>Composio SDK</strong> (<code>COMPOSIO_SEARCH_DUCK_DUCK_GO</code> and <code>FETCH_URL_CONTENT</code>) running alongside <code>gpt-4o</code>.
     </p>
     <p style="margin-bottom:0; font-size:13px;">
-      👉 <strong><a href="#" onclick="alert('When you deploy, link this to your GitHub repo'); return false;" style="color:#60a5fa; text-decoration:none; font-weight:600;">[View the Repository & Runnable Code]</a></strong><br>
+      👉 <strong><a href="https://github.com/ArpitChhabra23306/composio-app-research" target="_blank" style="color:#60a5fa; text-decoration:none; font-weight:600;">[View the Repository & Runnable Code]</a></strong><br>
       <span style="color:#94a3b8; font-size:12px;">(See the <code>README.md</code> in the source repository for the quick-start guide to run <code>python agent/research_agent_v2.py</code>)</span>
     </p>
   </div>
