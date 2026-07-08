@@ -508,6 +508,17 @@ def build():
      PIPELINE DESCRIPTION
 ═══════════════════════════════════════════════════════════════════════ -->
 <section>
+  <div style="background:#1a1a2e; border:1px solid #38bdf8; padding:16px; border-radius:8px; margin-bottom:24px;">
+    <h3 style="margin-top:0; color:#38bdf8; font-size:16px;">🚀 Proof & Runnable Trigger</h3>
+    <p style="margin-bottom:8px; font-size:13px; color:#cbd5e1;">
+      The research agent was built using the <strong>Composio SDK</strong> (<code>COMPOSIO_SEARCH_DUCK_DUCK_GO</code> and <code>FETCH_URL_CONTENT</code>) running alongside <code>gpt-4o</code>.
+    </p>
+    <p style="margin-bottom:0; font-size:13px;">
+      👉 <strong><a href="#" onclick="alert('When you deploy, link this to your GitHub repo'); return false;" style="color:#60a5fa; text-decoration:none; font-weight:600;">[View the Repository & Runnable Code]</a></strong><br>
+      <span style="color:#94a3b8; font-size:12px;">(See the <code>README.md</code> in the source repository for the quick-start guide to run <code>python agent/research_agent_v2.py</code>)</span>
+    </p>
+  </div>
+
   <h2>⚙️ How the Pipeline Works</h2>
   <pre class="pipeline"><span class="hi">COMPOSIO APP RESEARCH PIPELINE — V2</span>
 

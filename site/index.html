@@ -92,7 +92,7 @@
 <div class="hero">
   <h1>Composio App Intelligence Report</h1>
   <p>AI agent pipeline research: authentication patterns, gating, API surfaces, and buildability across 100 developer tools — built with the Composio SDK + gpt-4o.</p>
-  <span class="version-badge">Dataset: V2 (Corrected) &nbsp;|&nbsp; Generated: 2026-07-08 23:11 UTC &nbsp;|&nbsp; 100 apps researched</span>
+  <span class="version-badge">Dataset: V2 (Corrected) &nbsp;|&nbsp; Generated: 2026-07-08 23:29 UTC &nbsp;|&nbsp; 100 apps researched</span>
 </div>
 
 <!-- ═══════════════════════════════════════════════════════════════════════
@@ -2087,7 +2087,7 @@
               <td style="font-size:11px"><span style="color:#065f46">self-serve</span></td>
               <td style="font-size:11px">self-serve</td>
               <td style="color:#92400e;font-weight:600;font-size:11px">PARTIALLY CORRECT</td>
-              <td style="font-size:10px;color:#6b7280;max-width:200px">V2 missed API Key. OAuth2 (Connected Apps) is primary but Named Credentials / API tokens also exist.</td>
+              <td style="font-size:10px;color:#6b7280;max-width:200px">V3 missed API Key. OAuth2 (Connected Apps) is primary but Named Credentials / API tokens also exist.</td>
             </tr>
             <tr>
               <td style="font-size:12px"><strong>Attio</strong></td>
@@ -2107,7 +2107,7 @@
               <td style="font-size:11px"><span style="color:#065f46">mixed</span></td>
               <td style="font-size:11px">mixed</td>
               <td style="color:#065f46;font-weight:600;font-size:11px">CORRECT</td>
-              <td style="font-size:10px;color:#6b7280;max-width:200px">V2 correctly identified mixed (Professional+ plan needed for some API features).</td>
+              <td style="font-size:10px;color:#6b7280;max-width:200px">V3 correctly identified mixed (Professional+ plan needed for some API features).</td>
             </tr>
             <tr>
               <td style="font-size:12px"><strong>Plain</strong></td>
@@ -2117,7 +2117,7 @@
               <td style="font-size:11px"><span style="color:#065f46">self-serve</span></td>
               <td style="font-size:11px">self-serve</td>
               <td style="color:#92400e;font-weight:600;font-size:11px">PARTIALLY CORRECT</td>
-              <td style="font-size:10px;color:#6b7280;max-width:200px">V2 returned empty auth — docs page didn&#x27;t surface the auth section in the fetched content.</td>
+              <td style="font-size:10px;color:#6b7280;max-width:200px">V3 returned empty auth — docs page didn&#x27;t surface the auth section in the fetched content.</td>
             </tr>
             <tr>
               <td style="font-size:12px"><strong>Slack</strong></td>
@@ -2137,7 +2137,7 @@
               <td style="font-size:11px"><span style="color:#065f46">gated</span></td>
               <td style="font-size:11px">gated</td>
               <td style="color:#065f46;font-weight:600;font-size:11px">CORRECT</td>
-              <td style="font-size:10px;color:#6b7280;max-width:200px">V2 correctly identified gated (Developer Token approval needed). V1 had this as self-serve — major fix.</td>
+              <td style="font-size:10px;color:#6b7280;max-width:200px">V3 correctly identified gated (Developer Token approval needed). V1 had this as self-serve — major fix.</td>
             </tr>
             <tr>
               <td style="font-size:12px"><strong>LinkedIn Ads</strong></td>
@@ -2147,7 +2147,7 @@
               <td style="font-size:11px"><span style="color:#065f46">gated</span></td>
               <td style="font-size:11px">gated</td>
               <td style="color:#065f46;font-weight:600;font-size:11px">CORRECT</td>
-              <td style="font-size:10px;color:#6b7280;max-width:200px">V2 correctly identified partner approval requirement.</td>
+              <td style="font-size:10px;color:#6b7280;max-width:200px">V3 correctly identified partner approval requirement.</td>
             </tr>
             <tr>
               <td style="font-size:12px"><strong>Supabase</strong></td>
@@ -2157,7 +2157,7 @@
               <td style="font-size:11px"><span style="color:#065f46">self-serve</span></td>
               <td style="font-size:11px">self-serve</td>
               <td style="color:#92400e;font-weight:600;font-size:11px">PARTIALLY CORRECT</td>
-              <td style="font-size:10px;color:#6b7280;max-width:200px">Supabase uses API Key (anon key + service_role key) for its REST/SDK API. The OAuth2 that V2 found is for Supabase Auth </td>
+              <td style="font-size:10px;color:#6b7280;max-width:200px">Supabase uses API Key (anon key + service_role key) for its REST/SDK API. The OAuth2 that V3 found is for Supabase Auth </td>
             </tr>
             <tr>
               <td style="font-size:12px"><strong>Asana</strong></td>
@@ -2177,7 +2177,7 @@
               <td style="font-size:11px"><span style="color:#065f46">gated</span></td>
               <td style="font-size:11px">gated</td>
               <td style="color:#065f46;font-weight:600;font-size:11px">CORRECT</td>
-              <td style="font-size:10px;color:#6b7280;max-width:200px">V2 correctly identified gated. V1 had this as self-serve — another major fix.</td>
+              <td style="font-size:10px;color:#6b7280;max-width:200px">V3 correctly identified gated. V1 had this as self-serve — another major fix.</td>
             </tr>
             <tr>
               <td style="font-size:12px"><strong>Consensus</strong></td>
@@ -2197,6 +2197,17 @@
      PIPELINE DESCRIPTION
 ═══════════════════════════════════════════════════════════════════════ -->
 <section>
+  <div style="background:#1a1a2e; border:1px solid #38bdf8; padding:16px; border-radius:8px; margin-bottom:24px;">
+    <h3 style="margin-top:0; color:#38bdf8; font-size:16px;">🚀 Proof & Runnable Trigger</h3>
+    <p style="margin-bottom:8px; font-size:13px; color:#cbd5e1;">
+      The research agent was built using the <strong>Composio SDK</strong> (<code>COMPOSIO_SEARCH_DUCK_DUCK_GO</code> and <code>FETCH_URL_CONTENT</code>) running alongside <code>gpt-4o</code>.
+    </p>
+    <p style="margin-bottom:0; font-size:13px;">
+      👉 <strong><a href="#" onclick="alert('When you deploy, link this to your GitHub repo'); return false;" style="color:#60a5fa; text-decoration:none; font-weight:600;">[View the Repository & Runnable Code]</a></strong><br>
+      <span style="color:#94a3b8; font-size:12px;">(See the <code>README.md</code> in the source repository for the quick-start guide to run <code>python agent/research_agent_v2.py</code>)</span>
+    </p>
+  </div>
+
   <h2>⚙️ How the Pipeline Works</h2>
   <pre class="pipeline"><span class="hi">COMPOSIO APP RESEARCH PIPELINE — V2</span>
 
@@ -2255,7 +2266,7 @@
 <footer>
   <p>Built with <strong>Composio SDK</strong> + <strong>gpt-4o</strong> | 
      Data: <a href="https://github.com">View Source Repo</a> | 
-     Generated: 2026-07-08 23:11 UTC</p>
+     Generated: 2026-07-08 23:29 UTC</p>
   <p style="margin-top:8px">Results file: results_v2.json &nbsp;|&nbsp; Verification: pending apps checked</p>
 </footer>
 
