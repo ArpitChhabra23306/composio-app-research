@@ -127,12 +127,17 @@ If you want to re-run the research from scratch (takes ~30 mins):
 python agent/research_agent_v2.py
 ```
 
-### 4. Build the HTML report
-To re-generate the final HTML page from the JSON data:
+#### 4. Build and view the HTML report
+To generate the final HTML page from the JSON data:
 ```bash
 python analysis/build_html.py
 ```
-You can then open `site/index.html` in your web browser.
+
+**To view the report**, simply double-click the `site/index.html` file in your File Explorer / Finder, or run one of these commands to open it directly from the terminal:
+
+* **Mac:** `open site/index.html`
+* **Windows:** `start site\index.html`
+* **Linux:** `xdg-open site/index.html`
 
 ---
 
