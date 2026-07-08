@@ -310,22 +310,25 @@
     "id": 15,
     "app": "Pylon",
     "category": "Support and Helpdesk",
-    "one_liner": "Pylonâ€™s API allows programmatic access to customer and issue data.",
+    "one_liner": "Pylon is an AI-native B2B support platform offering omnichannel customer support solutions.",
     "auth_methods": [
       "API Key"
     ],
-    "self_serve": "gated",
-    "gating_notes": "Only Admin users can create API tokens.",
+    "self_serve": "self-serve",
+    "gating_notes": "Generate an API token in the Pylon dashboard.",
     "api_surface": {
       "type": "REST",
       "breadth": "moderate",
       "existing_mcp": false
     },
-    "buildability_verdict": "needs work",
-    "blocker": "needs partnership",
-    "evidence_url": "https://docs.usepylon.com/pylon-docs/developer/api",
-    "confidence": "med",
-    "agent_notes": "Documentation indicates that only Admin users can create API tokens, which may require partnership or admin approval."
+    "buildability_verdict": "buildable today",
+    "blocker": "none",
+    "evidence_url": "https://usepylon.com",
+    "confidence": "high",
+    "agent_notes": "The API uses Bearer authentication with API tokens generated in the Pylon dashboard. No mention of OAuth2 was found. The API is accessible to developers without needing to contact sales or subscribe to a paid plan.",
+    "needs_human_review": false,
+    "v2_rerun": true,
+    "v2_scope": "low_conf"
   },
   {
     "id": 16,
@@ -1147,22 +1150,26 @@
     "id": 54,
     "app": "MrScraper",
     "category": "Data, SEO and Scraping",
-    "one_liner": "AI-powered web scraper with advanced features",
+    "one_liner": "MrScraper is a powerful platform for automating and simplifying data extraction from websites.",
     "auth_methods": [
+      "OAuth2",
       "API Key"
     ],
-    "self_serve": "gated",
-    "gating_notes": "Still in closed beta",
+    "self_serve": "self-serve",
+    "gating_notes": "Free developer sandbox available — no credit card required.",
     "api_surface": {
       "type": "REST",
-      "breadth": "narrow",
+      "breadth": "moderate",
       "existing_mcp": false
     },
-    "buildability_verdict": "blocked",
-    "blocker": "needs partnership",
-    "evidence_url": "https://theresanaiforthat.com/s/crab-10.cc/most-saved/",
-    "confidence": "med",
-    "agent_notes": "Limited information available due to closed beta status."
+    "buildability_verdict": "buildable today",
+    "blocker": "none",
+    "evidence_url": "https://docs.mrscraper.com",
+    "confidence": "high",
+    "agent_notes": "Both OAuth2 and API Key authentication methods are supported as confirmed in the documentation. The API is accessible via a free developer sandbox, indicating self-serve access.",
+    "needs_human_review": false,
+    "v2_rerun": true,
+    "v2_scope": "low_conf"
   },
   {
     "id": 55,
@@ -1321,13 +1328,12 @@
     "id": 62,
     "app": "Vercel",
     "category": "Developer, Infra and Data platforms",
-    "one_liner": "Vercel is a platform for frontend frameworks and static sites, built to integrate with headless content management systems.",
+    "one_liner": "Vercel provides a REST API for managing deployments and integrations with OAuth2 authentication.",
     "auth_methods": [
-      "OAuth2",
-      "API Key"
+      "OAuth2"
     ],
     "self_serve": "self-serve",
-    "gating_notes": "Free tier available for developers.",
+    "gating_notes": "Free developer access available with OAuth2 authentication.",
     "api_surface": {
       "type": "REST",
       "breadth": "moderate",
@@ -1336,8 +1342,11 @@
     "buildability_verdict": "buildable today",
     "blocker": "none",
     "evidence_url": "https://vercel.com/docs/rest-api",
-    "confidence": "med",
-    "agent_notes": "Documentation for specific endpoints is not accessible, but general API information suggests functionality."
+    "confidence": "high",
+    "agent_notes": "OAuth2 authentication is confirmed through the Authorization Server API documentation. No mention of API Key authentication was found. The API appears to be self-serve with no gating requirements mentioned.",
+    "needs_human_review": false,
+    "v2_rerun": true,
+    "v2_scope": "low_conf"
   },
   {
     "id": 63,
@@ -1827,22 +1836,25 @@
     "id": 85,
     "app": "iPayX",
     "category": "Finance and Fintech",
-    "one_liner": "iPayX is an AI-powered payment platform; developer API docs are not publicly accessible.",
+    "one_liner": "iPayX provides forensic FX audit tools and APIs for fintechs and finance teams.",
     "auth_methods": [
-      "other"
+      "API Key"
     ],
-    "self_serve": "gated",
-    "gating_notes": "No public developer portal found. Website exists but no API documentation or developer signup path is accessible.",
+    "self_serve": "mixed",
+    "gating_notes": "Free developer sandbox available — no credit card required. Upgrade to 100-audit Credit Pack or Unlimited for API access.",
     "api_surface": {
-      "type": "Other/None",
-      "breadth": "narrow",
-      "existing_mcp": false
+      "type": "REST",
+      "breadth": "moderate",
+      "existing_mcp": true
     },
-    "buildability_verdict": "blocked",
-    "blocker": "no public API",
-    "evidence_url": "https://ipayx.ai",
-    "confidence": "low",
-    "agent_notes": "Agent failed to retrieve any docs after 3 retries. No public developer API docs found. This is a legitimate blocked finding, not a tool error."
+    "buildability_verdict": "needs work",
+    "blocker": "needs paid plan",
+    "evidence_url": "https://www.ipayx.ai/pricing",
+    "confidence": "high",
+    "agent_notes": "API Key authentication is mentioned in the developer docs. Free sandbox access is available, but full API access requires a paid plan. MCP server is explicitly mentioned, indicating existing MCP support.",
+    "needs_human_review": false,
+    "v2_rerun": true,
+    "v2_scope": "low_conf"
   },
   {
     "id": 86,

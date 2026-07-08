@@ -52,7 +52,7 @@ def run(batch_size=None):
                     except json.JSONDecodeError:
                         pass
         if done_ids:
-            print(f"Resuming — {len(done_ids)} apps already processed, skipping them.")
+            print(f"Resuming - {len(done_ids)} apps already processed, skipping them.")
 
     with open(PROGRESS_FILE, "a", encoding="utf-8") as progress_f:
         for app in apps:
@@ -95,7 +95,7 @@ def run(batch_size=None):
             progress_f.flush()
 
             if record.get("needs_human_review"):
-                print(f"  ⚠ Flagged for human review: {record['agent_notes'][:120]}")
+                print(f"  WARNING: Flagged for human review: {record['agent_notes'][:120]}")
 
             time.sleep(2)
 

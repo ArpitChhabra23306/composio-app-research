@@ -56,14 +56,14 @@ def select_scope(scope, apps_by_id, v1_by_id, explicit_ids):
     """Returns the list of app IDs to re-run based on scope argument."""
     if scope == "known_bad":
         ids = explicit_ids if explicit_ids else KNOWN_BAD_IDS
-        print(f"Scope: known_bad — re-running {len(ids)} manually-identified failures")
+        print(f"Scope: known_bad - re-running {len(ids)} manually-identified failures")
         print("  NOTE: This only proves improvement on the rows you already knew were wrong.")
         print("  Use --scope all or --scope low_conf for a more defensible accuracy claim.")
         return ids
 
     if scope == "all":
         ids = sorted(apps_by_id.keys())
-        print(f"Scope: all — re-running all {len(ids)} apps with v2 prompt")
+        print(f"Scope: all - re-running all {len(ids)} apps with v2 prompt")
         print("  This is the most defensible approach: proves the prompt improvement is general.")
         return ids
 
@@ -73,7 +73,7 @@ def select_scope(scope, apps_by_id, v1_by_id, explicit_ids):
             if r.get("confidence") != "high" or r.get("needs_human_review")
         ]
         ids = sorted(ids)
-        print(f"Scope: low_conf — re-running {len(ids)} apps v1 flagged as non-high-confidence")
+        print(f"Scope: low_conf - re-running {len(ids)} apps v1 flagged as non-high-confidence")
         print("  Good middle ground: covers the most uncertain rows without full 100-app cost.")
         return ids
 
@@ -104,8 +104,14 @@ def main():
     explicit_ids = [int(x.strip()) for x in args.ids.split(",") if x.strip()] if args.ids else []
     target_ids = select_scope(args.scope, apps_by_id, v1_by_id, explicit_ids)
 
-    # Seed from v1 — only overwrite target_ids, keep everything else
-    updated_results = dict(v1_by_id)
+    # Seed from v2 if exists, otherwise v1 to avoid overwriting previous rerun results
+    if os.path.exists(RESULTS_V2_FILE):
+        print("Seeding from existing v2 results to preserve previous runs.")
+        results_v2 = json.load(open(RESULTS_V2_FILE, encoding="utf-8"))
+        updated_results = {r["id"]: r for r in results_v2}
+    else:
+        print("Seeding from v1 results.")
+        updated_results = dict(v1_by_id)
 
     print(f"\nStarting re-run of {len(target_ids)} apps with model={MODEL}...\n")
 
@@ -133,8 +139,8 @@ def main():
             ss = record["self_serve"]
             blk = record["blocker"]
             conf = record["confidence"]
-            flag = " ⚠ REVIEW" if record.get("needs_human_review") else ""
-            print(f"  → auth={auth} | self_serve={ss} | blocker={blk} | conf={conf}{flag}")
+            flag = " [REVIEW NEEDED]" if record.get("needs_human_review") else ""
+            print(f"  -> auth={auth} | self_serve={ss} | blocker={blk} | conf={conf}{flag}")
 
         except Exception as e:
             print(f"  ERROR re-running {app['name']}: {e}")

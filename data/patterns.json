@@ -2,8 +2,8 @@
   "total_apps": 100,
   "auth_distribution": {
     "OAuth2": {
-      "count": 62,
-      "percentage": 62.0
+      "count": 63,
+      "percentage": 63.0
     },
     "API Key": {
       "count": 67,
@@ -14,8 +14,8 @@
       "percentage": 6.0
     },
     "other": {
-      "count": 11,
-      "percentage": 11.0
+      "count": 10,
+      "percentage": 10.0
     },
     "token": {
       "count": 5,
@@ -24,48 +24,44 @@
   },
   "self_serve_distribution": {
     "self-serve": {
-      "count": 86,
-      "percentage": 86.0
+      "count": 88,
+      "percentage": 88.0
     },
     "gated": {
-      "count": 12,
-      "percentage": 12.0
+      "count": 9,
+      "percentage": 9.0
     },
     "mixed": {
-      "count": 2,
-      "percentage": 2.0
+      "count": 3,
+      "percentage": 3.0
     }
   },
   "blocker_distribution": {
     "none": {
-      "count": 87,
-      "percentage": 87.0
+      "count": 89,
+      "percentage": 89.0
     },
     "needs partnership": {
-      "count": 7,
-      "percentage": 7.0
-    },
-    "needs paid plan": {
       "count": 5,
       "percentage": 5.0
     },
-    "no public API": {
-      "count": 1,
-      "percentage": 1.0
+    "needs paid plan": {
+      "count": 6,
+      "percentage": 6.0
     }
   },
   "buildability_distribution": {
     "buildable today": {
-      "count": 87,
-      "percentage": 87.0
+      "count": 89,
+      "percentage": 89.0
     },
     "needs work": {
       "count": 8,
       "percentage": 8.0
     },
     "blocked": {
-      "count": 5,
-      "percentage": 5.0
+      "count": 3,
+      "percentage": 3.0
     }
   },
   "category_analysis": {
@@ -87,8 +83,8 @@
     },
     "Support and Helpdesk": {
       "total_apps": 10,
-      "self_serve": 8,
-      "gated": 1,
+      "self_serve": 9,
+      "gated": 0,
       "mixed": 1,
       "auth_methods": {
         "OAuth2": 5,
@@ -96,9 +92,9 @@
         "Basic": 1
       },
       "mcp_count": 1,
-      "buildable_count": 8,
-      "self_serve_percent": 80.0,
-      "gated_percent": 10.0,
+      "buildable_count": 9,
+      "self_serve_percent": 90.0,
+      "gated_percent": 0.0,
       "mixed_percent": 10.0,
       "primary_auth": "API Key"
     },
@@ -158,19 +154,19 @@
     },
     "Data, SEO and Scraping": {
       "total_apps": 10,
-      "self_serve": 6,
-      "gated": 4,
+      "self_serve": 7,
+      "gated": 3,
       "mixed": 0,
       "auth_methods": {
         "Basic": 1,
         "API Key": 8,
-        "OAuth2": 2,
+        "OAuth2": 3,
         "other": 3
       },
       "mcp_count": 2,
-      "buildable_count": 6,
-      "self_serve_percent": 60.0,
-      "gated_percent": 40.0,
+      "buildable_count": 7,
+      "self_serve_percent": 70.0,
+      "gated_percent": 30.0,
       "mixed_percent": 0.0,
       "primary_auth": "API Key"
     },
@@ -181,7 +177,7 @@
       "mixed": 0,
       "auth_methods": {
         "OAuth2": 9,
-        "API Key": 7,
+        "API Key": 6,
         "token": 3,
         "Basic": 1,
         "other": 3
@@ -213,18 +209,17 @@
     "Finance and Fintech": {
       "total_apps": 10,
       "self_serve": 8,
-      "gated": 2,
-      "mixed": 0,
+      "gated": 1,
+      "mixed": 1,
       "auth_methods": {
         "OAuth2": 7,
-        "API Key": 6,
-        "other": 1
+        "API Key": 7
       },
-      "mcp_count": 2,
+      "mcp_count": 3,
       "buildable_count": 8,
       "self_serve_percent": 80.0,
-      "gated_percent": 20.0,
-      "mixed_percent": 0.0,
+      "gated_percent": 10.0,
+      "mixed_percent": 10.0,
       "primary_auth": "OAuth2"
     },
     "AI, Research and Media-native": {
@@ -246,7 +241,7 @@
     }
   },
   "easy_wins": {
-    "count": 76,
+    "count": 78,
     "apps": [
       {
         "app": "Salesforce",
@@ -333,6 +328,14 @@
           "API Key"
         ],
         "website": "https://developers.freshdesk.com/api/"
+      },
+      {
+        "app": "Pylon",
+        "category": "Support and Helpdesk",
+        "auth": [
+          "API Key"
+        ],
+        "website": "https://usepylon.com"
       },
       {
         "app": "LiveAgent",
@@ -611,6 +614,15 @@
         "website": "https://docs.dataforseo.com/v3/auth/"
       },
       {
+        "app": "MrScraper",
+        "category": "Data, SEO and Scraping",
+        "auth": [
+          "OAuth2",
+          "API Key"
+        ],
+        "website": "https://docs.mrscraper.com"
+      },
+      {
         "app": "Apify",
         "category": "Data, SEO and Scraping",
         "auth": [
@@ -649,8 +661,7 @@
         "app": "Vercel",
         "category": "Developer, Infra and Data platforms",
         "auth": [
-          "OAuth2",
-          "API Key"
+          "OAuth2"
         ],
         "website": "https://vercel.com/docs/rest-api"
       },
@@ -901,7 +912,7 @@
     ]
   },
   "needs_outreach": {
-    "count": 7,
+    "count": 5,
     "apps": [
       {
         "app": "DealCloud",
@@ -909,13 +920,6 @@
         "blocker": "needs partnership",
         "gating_notes": "Requires admin approval and user permissions for access.",
         "website": "https://api.docs.dealcloud.com/mcp/authentication"
-      },
-      {
-        "app": "Pylon",
-        "category": "Support and Helpdesk",
-        "blocker": "needs partnership",
-        "gating_notes": "Only Admin users can create API tokens.",
-        "website": "https://docs.usepylon.com/pylon-docs/developer/api"
       },
       {
         "app": "Google Ads",
@@ -930,13 +934,6 @@
         "blocker": "needs partnership",
         "gating_notes": "Requires admin approval and partnership for access.",
         "website": "https://learn.microsoft.com/en-us/linkedin/"
-      },
-      {
-        "app": "MrScraper",
-        "category": "Data, SEO and Scraping",
-        "blocker": "needs partnership",
-        "gating_notes": "Still in closed beta",
-        "website": "https://theresanaiforthat.com/s/crab-10.cc/most-saved/"
       },
       {
         "app": "PitchBook",
