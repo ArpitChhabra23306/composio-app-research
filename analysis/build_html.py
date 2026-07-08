@@ -318,11 +318,11 @@ def build():
      ACCURACY COMPARISON
 ═══════════════════════════════════════════════════════════════════════ -->
 <section>
-  <h2>📊 Accuracy Improvement: V1 → V2 → V3</h2>
+  <h2>📊 Accuracy Improvement: V1 → V2</h2>
   <p style="color:#94a3b8;margin-bottom:20px;font-size:13px">
     This table shows measured accuracy improvements across pipeline versions.
     V1 used gpt-4o-mini with a basic prompt. V2 added gpt-4o + improved prompt for 14 known-bad apps.
-    V3 is the complete fresh run with corrected SDK calls, honest failure defaults, and temperature=0.
+    V2 is the complete fresh run with corrected SDK calls, honest failure defaults, and temperature=0.
   </p>
   <table class="acc-table">
     <thead>
@@ -330,8 +330,8 @@ def build():
         <th>Metric</th>
         <th>V1 (gpt-4o-mini, basic prompt)</th>
         <th>V2 (gpt-4o, 14 reruns)</th>
-        <th>V3 (gpt-4o, full run, corrected code)</th>
-        <th>Change V1 → V3</th>
+        <th>V2 (gpt-4o, full run, corrected code)</th>
+        <th>Change V1 → V2</th>
       </tr>
     </thead>
     <tbody>
@@ -380,7 +380,7 @@ def build():
     </tbody>
   </table>
 
-  <h3>Key Failure Modes Fixed V1 → V3</h3>
+  <h3>Key Failure Modes Fixed V1 → V2</h3>
   <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px">
     <div style="background:#13131f;border:1px solid #1e293b;border-radius:10px;padding:16px">
       <div style="color:#f87171;font-weight:600;font-size:13px;margin-bottom:8px">&#10005; V1 Failure: Multi-Auth Blindness</div>
@@ -395,7 +395,7 @@ def build():
       <div style="font-size:12px;color:#94a3b8">If a page scrape failed, Python's .get() defaulted to "self-serve", "buildable today", blocker "none" — turning every failure into the most optimistic possible result.</div>
     </div>
     <div style="background:#d1fae5;border:1px solid #34d399;border-radius:10px;padding:16px">
-      <div style="color:#065f46;font-weight:600;font-size:13px;margin-bottom:8px">&#10003; V3 Fix: Honest Failure Defaults</div>
+      <div style="color:#065f46;font-weight:600;font-size:13px;margin-bottom:8px">&#10003; V2 Fix: Honest Failure Defaults</div>
       <div style="font-size:12px;color:#065f46">All missing fields default to "unknown" + confidence="low" + needs_human_review=True. Zero silent false-positives in the dataset.</div>
     </div>
   </div>
@@ -494,8 +494,8 @@ def build():
       <thead>
         <tr>
           <th>App</th><th>Category</th>
-          <th>V3 Auth (Pipeline)</th><th>True Auth (Manual)</th>
-          <th>V3 Self-Serve (Pipeline)</th><th>True Self-Serve (Manual)</th>
+          <th>V2 Auth (Pipeline)</th><th>True Auth (Manual)</th>
+          <th>V2 Self-Serve (Pipeline)</th><th>True Self-Serve (Manual)</th>
           <th>Verdict</th><th>Notes</th>
         </tr>
       </thead>
@@ -509,7 +509,7 @@ def build():
 ═══════════════════════════════════════════════════════════════════════ -->
 <section>
   <h2>⚙️ How the Pipeline Works</h2>
-  <pre class="pipeline"><span class="hi">COMPOSIO APP RESEARCH PIPELINE — V3</span>
+  <pre class="pipeline"><span class="hi">COMPOSIO APP RESEARCH PIPELINE — V2</span>
 
 <span class="ok">INPUT</span>  apps.json (100 apps: name + category + hint URL)
   |
@@ -552,7 +552,7 @@ def build():
 <span class="ok">STEP 6: VERIFY</span>   verify_v2.py — stratified 20-app sample
        → Fresh independent web search for each app
        → gpt-4o cross-checks agent claims vs fresh docs
-       → Reports field-level accuracy + v1 vs v3 improvements
+       → Reports field-level accuracy + v1 vs v2 improvements
 
 <span class="warn">SDK NOTE:</span> Uses composio_client.client.tools.execute(tool_slug=...) path.
    The c.tools.execute(slug=...) alternative requires a toolkit version
