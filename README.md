@@ -1,5 +1,6 @@
 # Composio App Intelligence — 100-App Research Pipeline
 
+> **Live Report:** [View the Deployed HTML Case Study Here](https://composio-app-research-mbmmi48h0.vercel.app/)  
 > **Built for:** Composio AI Product Ops Intern Assignment  
 > **Pipeline:** Composio SDK + OpenAI gpt-4o → 100 researched apps → verified HTML report
 
