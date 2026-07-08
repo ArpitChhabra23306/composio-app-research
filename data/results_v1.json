@@ -1,0 +1,367 @@
+[
+  {
+    "id": 1,
+    "app": "Salesforce",
+    "category": "CRM and Sales",
+    "one_liner": "Salesforce is a leading CRM platform that provides tools for sales, customer service, and marketing.",
+    "auth_methods": [
+      "OAuth2",
+      "API Key"
+    ],
+    "self_serve": "self-serve",
+    "gating_notes": "Free developer edition available for immediate access.",
+    "api_surface": {
+      "type": "REST",
+      "breadth": "very broad",
+      "existing_mcp": true
+    },
+    "buildability_verdict": "buildable today",
+    "blocker": "none",
+    "evidence_url": "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/quickstart_oauth.htm",
+    "confidence": "high",
+    "agent_notes": "No significant ambiguities found in the documentation."
+  },
+  {
+    "id": 2,
+    "app": "HubSpot",
+    "category": "CRM and Sales",
+    "one_liner": "Build custom CRM and data-driven website experiences on HubSpot.",
+    "auth_methods": [
+      "OAuth2",
+      "API Key"
+    ],
+    "self_serve": "self-serve",
+    "gating_notes": "Free developer tier available.",
+    "api_surface": {
+      "type": "REST",
+      "breadth": "broad",
+      "existing_mcp": false
+    },
+    "buildability_verdict": "buildable today",
+    "blocker": "none",
+    "evidence_url": "https://developers.hubspot.com/docs",
+    "confidence": "high",
+    "agent_notes": "No significant ambiguities found in the documentation."
+  },
+  {
+    "id": 3,
+    "app": "Pipedrive",
+    "category": "CRM and Sales",
+    "one_liner": "Pipedrive is a CRM and sales management tool that helps businesses manage their sales processes.",
+    "auth_methods": [
+      "OAuth2",
+      "API Key"
+    ],
+    "self_serve": "self-serve",
+    "gating_notes": "Free developer account available for API access.",
+    "api_surface": {
+      "type": "REST",
+      "breadth": "broad",
+      "existing_mcp": false
+    },
+    "buildability_verdict": "buildable today",
+    "blocker": "none",
+    "evidence_url": "https://developers.pipedrive.com/docs/api/v1",
+    "confidence": "high",
+    "agent_notes": "No significant ambiguities found in the documentation."
+  },
+  {
+    "id": 4,
+    "app": "Attio",
+    "category": "CRM and Sales",
+    "one_liner": "Attio provides a public REST API for CRM and sales functionalities.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "self_serve": "self-serve",
+    "gating_notes": "Free access to the API with no admin approval required.",
+    "api_surface": {
+      "type": "REST",
+      "breadth": "moderate",
+      "existing_mcp": false
+    },
+    "buildability_verdict": "buildable today",
+    "blocker": "none",
+    "evidence_url": "https://docs.attio.com/rest-api/overview",
+    "confidence": "high",
+    "agent_notes": "No ambiguities found in the documentation."
+  },
+  {
+    "id": 5,
+    "app": "Twenty",
+    "category": "CRM and Sales",
+    "one_liner": "Twenty is a CRM and sales platform that offers customizable APIs for managing records and schema.",
+    "auth_methods": [
+      "API Key",
+      "OAuth2"
+    ],
+    "self_serve": "self-serve",
+    "gating_notes": "Free API key creation available after account setup.",
+    "api_surface": {
+      "type": "REST+GraphQL",
+      "breadth": "moderate",
+      "existing_mcp": false
+    },
+    "buildability_verdict": "buildable today",
+    "blocker": "none",
+    "evidence_url": "https://docs.twenty.com/developers/extend/api",
+    "confidence": "high",
+    "agent_notes": "No static API reference; endpoints are dynamically generated based on workspace schema."
+  },
+  {
+    "id": 6,
+    "app": "Podio",
+    "category": "CRM and Sales",
+    "one_liner": "Podio API lets you integrate with other services and build tools and applications on top of Podio.",
+    "auth_methods": [
+      "API Key"
+    ],
+    "self_serve": "self-serve",
+    "gating_notes": "Get started right away - generate your API key.",
+    "api_surface": {
+      "type": "REST",
+      "breadth": "broad",
+      "existing_mcp": false
+    },
+    "buildability_verdict": "buildable today",
+    "blocker": "none",
+    "evidence_url": "https://developers.podio.com/",
+    "confidence": "high",
+    "agent_notes": "No significant ambiguities found in the documentation."
+  },
+  {
+    "id": 7,
+    "app": "Zoho CRM",
+    "category": "CRM and Sales",
+    "one_liner": "Zoho CRM provides a comprehensive suite of APIs for managing customer relationships and sales data.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "self_serve": "self-serve",
+    "gating_notes": "Free developer tier available.",
+    "api_surface": {
+      "type": "REST",
+      "breadth": "broad",
+      "existing_mcp": false
+    },
+    "buildability_verdict": "buildable today",
+    "blocker": "none",
+    "evidence_url": "https://www.zoho.com/crm/developer/docs/api/v8/",
+    "confidence": "high",
+    "agent_notes": "No significant ambiguities found in the documentation."
+  },
+  {
+    "id": 8,
+    "app": "Close",
+    "category": "CRM and Sales",
+    "one_liner": "Close is a CRM and sales platform that automates sales processes and integrates with various tools.",
+    "auth_methods": [
+      "OAuth2",
+      "API Key"
+    ],
+    "self_serve": "self-serve",
+    "gating_notes": "Free developer tier available with API keys and OAuth.",
+    "api_surface": {
+      "type": "REST",
+      "breadth": "broad",
+      "existing_mcp": true
+    },
+    "buildability_verdict": "buildable today",
+    "blocker": "none",
+    "evidence_url": "https://developer.close.com/",
+    "confidence": "high",
+    "agent_notes": "No significant ambiguities noted; clear documentation available."
+  },
+  {
+    "id": 9,
+    "app": "Copper",
+    "category": "CRM and Sales",
+    "one_liner": "Copper is a CRM and sales platform that integrates with Google Workspace.",
+    "auth_methods": [
+      "API Key",
+      "OAuth2"
+    ],
+    "self_serve": "self-serve",
+    "gating_notes": "Free developer tier available with API key generation.",
+    "api_surface": {
+      "type": "REST",
+      "breadth": "moderate",
+      "existing_mcp": false
+    },
+    "buildability_verdict": "buildable today",
+    "blocker": "none",
+    "evidence_url": "https://developer.copper.com/introduction/authentication.html",
+    "confidence": "high",
+    "agent_notes": "No significant ambiguities found in the documentation."
+  },
+  {
+    "id": 10,
+    "app": "DealCloud",
+    "category": "CRM and Sales",
+    "one_liner": "DealCloud is a CRM and sales platform that provides tools for managing client relationships and sales processes.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "self_serve": "gated",
+    "gating_notes": "Requires admin approval and user permissions for access.",
+    "api_surface": {
+      "type": "REST",
+      "breadth": "moderate",
+      "existing_mcp": true
+    },
+    "buildability_verdict": "needs work",
+    "blocker": "needs partnership",
+    "evidence_url": "https://api.docs.dealcloud.com/mcp/authentication",
+    "confidence": "high",
+    "agent_notes": "MCP server is in client preview starting July 2026, indicating limited current access."
+  },
+  {
+    "id": 11,
+    "app": "Zendesk",
+    "category": "Support and Helpdesk",
+    "one_liner": "Zendesk provides a platform for customer support and helpdesk solutions.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "self_serve": "self-serve",
+    "gating_notes": "Free developer tier available with immediate access to API credentials.",
+    "api_surface": {
+      "type": "REST",
+      "breadth": "broad",
+      "existing_mcp": false
+    },
+    "buildability_verdict": "buildable today",
+    "blocker": "none",
+    "evidence_url": "https://developer.zendesk.com/documentation/api-basics/authentication/api-tokens-to-oauth/",
+    "confidence": "high",
+    "agent_notes": "No significant ambiguities found in the documentation."
+  },
+  {
+    "id": 12,
+    "app": "Intercom",
+    "category": "Support and Helpdesk",
+    "one_liner": "Intercom provides a platform for customer support and engagement.",
+    "auth_methods": [
+      "OAuth2",
+      "API Key"
+    ],
+    "self_serve": "self-serve",
+    "gating_notes": "Access Tokens provided immediately upon app creation.",
+    "api_surface": {
+      "type": "REST",
+      "breadth": "broad",
+      "existing_mcp": false
+    },
+    "buildability_verdict": "buildable today",
+    "blocker": "none",
+    "evidence_url": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication",
+    "confidence": "high",
+    "agent_notes": "No significant ambiguities found; clear documentation on authentication methods."
+  },
+  {
+    "id": 13,
+    "app": "Freshdesk",
+    "category": "Support and Helpdesk",
+    "one_liner": "Freshdesk is a cloud-based customer support platform that enables companies to provide great customer service.",
+    "auth_methods": [
+      "API Key"
+    ],
+    "self_serve": "self-serve",
+    "gating_notes": "Free developer tier available.",
+    "api_surface": {
+      "type": "REST",
+      "breadth": "broad",
+      "existing_mcp": false
+    },
+    "buildability_verdict": "buildable today",
+    "blocker": "none",
+    "evidence_url": "https://developers.freshdesk.com/api/",
+    "confidence": "high",
+    "agent_notes": "No significant ambiguities found in the documentation."
+  },
+  {
+    "id": 14,
+    "app": "Front",
+    "category": "Support and Helpdesk",
+    "one_liner": "Front is a platform for building custom integrations and managing communications across various channels.",
+    "auth_methods": [
+      "OAuth2",
+      "API Key"
+    ],
+    "self_serve": "self-serve",
+    "gating_notes": "Free developer environment available for building integrations.",
+    "api_surface": {
+      "type": "REST",
+      "breadth": "broad",
+      "existing_mcp": true
+    },
+    "buildability_verdict": "buildable today",
+    "blocker": "none",
+    "evidence_url": "https://dev.frontapp.com/docs/welcome",
+    "confidence": "high",
+    "agent_notes": "No significant ambiguities found; documentation appears comprehensive."
+  },
+  {
+    "id": 15,
+    "app": "Pylon",
+    "category": "Support and Helpdesk",
+    "one_liner": "Pylon’s API allows programmatic access to customer and issue data.",
+    "auth_methods": [
+      "API Key"
+    ],
+    "self_serve": "gated",
+    "gating_notes": "Only Admin users can create API tokens.",
+    "api_surface": {
+      "type": "REST",
+      "breadth": "moderate",
+      "existing_mcp": false
+    },
+    "buildability_verdict": "needs work",
+    "blocker": "needs partnership",
+    "evidence_url": "https://docs.usepylon.com/pylon-docs/developer/api",
+    "confidence": "med",
+    "agent_notes": "Documentation indicates that only Admin users can create API tokens, which may require partnership or admin approval."
+  },
+  {
+    "id": 16,
+    "app": "LiveAgent",
+    "category": "Support and Helpdesk",
+    "one_liner": "LiveAgent is a support and helpdesk software that provides an API for managing customer interactions.",
+    "auth_methods": [
+      "API Key"
+    ],
+    "self_serve": "self-serve",
+    "gating_notes": "API key can be generated in the admin panel without manual approval.",
+    "api_surface": {
+      "type": "REST",
+      "breadth": "moderate",
+      "existing_mcp": false
+    },
+    "buildability_verdict": "buildable today",
+    "blocker": "none",
+    "evidence_url": "https://support.liveagent.com/docs/api/v3/",
+    "confidence": "high",
+    "agent_notes": "No significant ambiguities found; documentation appears clear."
+  },
+  {
+    "id": 17,
+    "app": "Plain",
+    "category": "Support and Helpdesk",
+    "one_liner": "Plain is an API-first platform for support and helpdesk solutions.",
+    "auth_methods": [
+      "API Key"
+    ],
+    "self_serve": "self-serve",
+    "gating_notes": "Free developer tier available with API key creation.",
+    "api_surface": {
+      "type": "REST",
+      "breadth": "moderate",
+      "existing_mcp": false
+    },
+    "buildability_verdict": "buildable today",
+    "blocker": "none",
+    "evidence_url": "https://help.plain.com/article/developer",
+    "confidence": "high",
+    "agent_notes": "No significant ambiguities found in the documentation."
+  }
+]

@@ -1,0 +1,34 @@
+# Environment variables (MUST be kept secret!)
+.env
+.env.local
+.env.*
+
+# Python Cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Project output / data cache that we don't want to sync if it gets too large
+# (Though results_v1.json / results_v2.json are small, we might want to track them)
+# For this assignment, we WANT to commit data/*.json since the repo needs to show them.
+# So we only ignore temp logs and temporary runs.
+agent/failures.json
+.system_generated/
+*.log
