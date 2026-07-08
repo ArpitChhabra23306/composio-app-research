@@ -196,7 +196,8 @@ def build():
           <td style="text-align:center">{buildable}/{total_cat}</td>
         </tr>"""
 
-    now = datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
+    from datetime import timezone
+    now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
 
     # ── FINAL HTML ─────────────────────────────────────────────────────────────
     html_out = f"""<!DOCTYPE html>
