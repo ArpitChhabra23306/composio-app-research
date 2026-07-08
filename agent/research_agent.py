@@ -102,7 +102,7 @@ def extract_metadata(app, raw_docs):
     )
     
     response = openai_client.chat.completions.create(
-        model="gpt-4o-mini",
+        model="gpt-4o",
         messages=[
             {"role": "system", "content": SYSTEM_PROMPT},
             {"role": "user", "content": user_prompt}

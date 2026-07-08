@@ -1,0 +1,957 @@
+{
+  "total_apps": 100,
+  "auth_distribution": {
+    "OAuth2": {
+      "count": 62,
+      "percentage": 62.0
+    },
+    "API Key": {
+      "count": 67,
+      "percentage": 67.0
+    },
+    "Basic": {
+      "count": 6,
+      "percentage": 6.0
+    },
+    "other": {
+      "count": 11,
+      "percentage": 11.0
+    },
+    "token": {
+      "count": 5,
+      "percentage": 5.0
+    }
+  },
+  "self_serve_distribution": {
+    "self-serve": {
+      "count": 86,
+      "percentage": 86.0
+    },
+    "gated": {
+      "count": 12,
+      "percentage": 12.0
+    },
+    "mixed": {
+      "count": 2,
+      "percentage": 2.0
+    }
+  },
+  "blocker_distribution": {
+    "none": {
+      "count": 87,
+      "percentage": 87.0
+    },
+    "needs partnership": {
+      "count": 7,
+      "percentage": 7.0
+    },
+    "needs paid plan": {
+      "count": 5,
+      "percentage": 5.0
+    },
+    "no public API": {
+      "count": 1,
+      "percentage": 1.0
+    }
+  },
+  "buildability_distribution": {
+    "buildable today": {
+      "count": 87,
+      "percentage": 87.0
+    },
+    "needs work": {
+      "count": 8,
+      "percentage": 8.0
+    },
+    "blocked": {
+      "count": 5,
+      "percentage": 5.0
+    }
+  },
+  "category_analysis": {
+    "CRM and Sales": {
+      "total_apps": 10,
+      "self_serve": 9,
+      "gated": 1,
+      "mixed": 0,
+      "auth_methods": {
+        "OAuth2": 9,
+        "API Key": 7
+      },
+      "mcp_count": 2,
+      "buildable_count": 9,
+      "self_serve_percent": 90.0,
+      "gated_percent": 10.0,
+      "mixed_percent": 0.0,
+      "primary_auth": "OAuth2"
+    },
+    "Support and Helpdesk": {
+      "total_apps": 10,
+      "self_serve": 8,
+      "gated": 1,
+      "mixed": 1,
+      "auth_methods": {
+        "OAuth2": 5,
+        "API Key": 9,
+        "Basic": 1
+      },
+      "mcp_count": 1,
+      "buildable_count": 8,
+      "self_serve_percent": 80.0,
+      "gated_percent": 10.0,
+      "mixed_percent": 10.0,
+      "primary_auth": "API Key"
+    },
+    "Communications and Messaging": {
+      "total_apps": 10,
+      "self_serve": 10,
+      "gated": 0,
+      "mixed": 0,
+      "auth_methods": {
+        "OAuth2": 7,
+        "API Key": 6,
+        "other": 1,
+        "Basic": 1
+      },
+      "mcp_count": 0,
+      "buildable_count": 10,
+      "self_serve_percent": 100.0,
+      "gated_percent": 0.0,
+      "mixed_percent": 0.0,
+      "primary_auth": "OAuth2"
+    },
+    "Marketing, Ads, Email and Social": {
+      "total_apps": 10,
+      "self_serve": 8,
+      "gated": 2,
+      "mixed": 0,
+      "auth_methods": {
+        "OAuth2": 6,
+        "token": 1,
+        "API Key": 4,
+        "Basic": 1
+      },
+      "mcp_count": 0,
+      "buildable_count": 8,
+      "self_serve_percent": 80.0,
+      "gated_percent": 20.0,
+      "mixed_percent": 0.0,
+      "primary_auth": "OAuth2"
+    },
+    "Ecommerce": {
+      "total_apps": 10,
+      "self_serve": 10,
+      "gated": 0,
+      "mixed": 0,
+      "auth_methods": {
+        "OAuth2": 6,
+        "API Key": 5,
+        "Basic": 1,
+        "other": 1
+      },
+      "mcp_count": 1,
+      "buildable_count": 10,
+      "self_serve_percent": 100.0,
+      "gated_percent": 0.0,
+      "mixed_percent": 0.0,
+      "primary_auth": "OAuth2"
+    },
+    "Data, SEO and Scraping": {
+      "total_apps": 10,
+      "self_serve": 6,
+      "gated": 4,
+      "mixed": 0,
+      "auth_methods": {
+        "Basic": 1,
+        "API Key": 8,
+        "OAuth2": 2,
+        "other": 3
+      },
+      "mcp_count": 2,
+      "buildable_count": 6,
+      "self_serve_percent": 60.0,
+      "gated_percent": 40.0,
+      "mixed_percent": 0.0,
+      "primary_auth": "API Key"
+    },
+    "Developer, Infra and Data platforms": {
+      "total_apps": 10,
+      "self_serve": 10,
+      "gated": 0,
+      "mixed": 0,
+      "auth_methods": {
+        "OAuth2": 9,
+        "API Key": 7,
+        "token": 3,
+        "Basic": 1,
+        "other": 3
+      },
+      "mcp_count": 0,
+      "buildable_count": 10,
+      "self_serve_percent": 100.0,
+      "gated_percent": 0.0,
+      "mixed_percent": 0.0,
+      "primary_auth": "OAuth2"
+    },
+    "Productivity and Project Management": {
+      "total_apps": 10,
+      "self_serve": 10,
+      "gated": 0,
+      "mixed": 0,
+      "auth_methods": {
+        "OAuth2": 8,
+        "token": 1,
+        "API Key": 8
+      },
+      "mcp_count": 1,
+      "buildable_count": 10,
+      "self_serve_percent": 100.0,
+      "gated_percent": 0.0,
+      "mixed_percent": 0.0,
+      "primary_auth": "OAuth2"
+    },
+    "Finance and Fintech": {
+      "total_apps": 10,
+      "self_serve": 8,
+      "gated": 2,
+      "mixed": 0,
+      "auth_methods": {
+        "OAuth2": 7,
+        "API Key": 6,
+        "other": 1
+      },
+      "mcp_count": 2,
+      "buildable_count": 8,
+      "self_serve_percent": 80.0,
+      "gated_percent": 20.0,
+      "mixed_percent": 0.0,
+      "primary_auth": "OAuth2"
+    },
+    "AI, Research and Media-native": {
+      "total_apps": 10,
+      "self_serve": 7,
+      "gated": 2,
+      "mixed": 1,
+      "auth_methods": {
+        "OAuth2": 3,
+        "API Key": 7,
+        "other": 2
+      },
+      "mcp_count": 2,
+      "buildable_count": 8,
+      "self_serve_percent": 70.0,
+      "gated_percent": 20.0,
+      "mixed_percent": 10.0,
+      "primary_auth": "API Key"
+    }
+  },
+  "easy_wins": {
+    "count": 76,
+    "apps": [
+      {
+        "app": "Salesforce",
+        "category": "CRM and Sales",
+        "auth": [
+          "OAuth2"
+        ],
+        "website": "https://salesforce.com"
+      },
+      {
+        "app": "HubSpot",
+        "category": "CRM and Sales",
+        "auth": [
+          "OAuth2",
+          "API Key"
+        ],
+        "website": "https://developers.hubspot.com/docs"
+      },
+      {
+        "app": "Pipedrive",
+        "category": "CRM and Sales",
+        "auth": [
+          "OAuth2",
+          "API Key"
+        ],
+        "website": "https://developers.pipedrive.com/docs/api/v1"
+      },
+      {
+        "app": "Attio",
+        "category": "CRM and Sales",
+        "auth": [
+          "OAuth2",
+          "API Key"
+        ],
+        "website": "https://attio.com"
+      },
+      {
+        "app": "Twenty",
+        "category": "CRM and Sales",
+        "auth": [
+          "API Key",
+          "OAuth2"
+        ],
+        "website": "https://docs.twenty.com/developers/extend/api"
+      },
+      {
+        "app": "Podio",
+        "category": "CRM and Sales",
+        "auth": [
+          "API Key"
+        ],
+        "website": "https://developers.podio.com/"
+      },
+      {
+        "app": "Zoho CRM",
+        "category": "CRM and Sales",
+        "auth": [
+          "OAuth2"
+        ],
+        "website": "https://zoho.com/crm"
+      },
+      {
+        "app": "Copper",
+        "category": "CRM and Sales",
+        "auth": [
+          "API Key",
+          "OAuth2"
+        ],
+        "website": "https://developer.copper.com/introduction/authentication.html"
+      },
+      {
+        "app": "Intercom",
+        "category": "Support and Helpdesk",
+        "auth": [
+          "OAuth2",
+          "API Key"
+        ],
+        "website": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication"
+      },
+      {
+        "app": "Freshdesk",
+        "category": "Support and Helpdesk",
+        "auth": [
+          "API Key"
+        ],
+        "website": "https://developers.freshdesk.com/api/"
+      },
+      {
+        "app": "LiveAgent",
+        "category": "Support and Helpdesk",
+        "auth": [
+          "API Key"
+        ],
+        "website": "https://support.liveagent.com/docs/api/v3/"
+      },
+      {
+        "app": "Plain",
+        "category": "Support and Helpdesk",
+        "auth": [
+          "API Key"
+        ],
+        "website": "https://help.plain.com/article/developer"
+      },
+      {
+        "app": "Help Scout",
+        "category": "Support and Helpdesk",
+        "auth": [
+          "OAuth2",
+          "API Key"
+        ],
+        "website": "https://developer.helpscout.com/"
+      },
+      {
+        "app": "Gorgias",
+        "category": "Support and Helpdesk",
+        "auth": [
+          "API Key",
+          "Basic"
+        ],
+        "website": "https://docs.gorgias.com/en-US/rest-api-208286"
+      },
+      {
+        "app": "Gladly",
+        "category": "Support and Helpdesk",
+        "auth": [
+          "OAuth2"
+        ],
+        "website": "https://developer.gladly.com/"
+      },
+      {
+        "app": "Slack",
+        "category": "Communications and Messaging",
+        "auth": [
+          "OAuth2"
+        ],
+        "website": "https://docs.slack.dev/authentication/"
+      },
+      {
+        "app": "Twilio",
+        "category": "Communications and Messaging",
+        "auth": [
+          "OAuth2",
+          "API Key"
+        ],
+        "website": "https://www.twilio.com/docs"
+      },
+      {
+        "app": "Zoho Cliq",
+        "category": "Communications and Messaging",
+        "auth": [
+          "OAuth2"
+        ],
+        "website": "https://www.zoho.com/cliq/help/restapi/v2/introduction/"
+      },
+      {
+        "app": "Lark (Larksuite)",
+        "category": "Communications and Messaging",
+        "auth": [
+          "OAuth2",
+          "API Key"
+        ],
+        "website": "https://open.larksuite.com/document/home/index?lang=en-US"
+      },
+      {
+        "app": "Pumble",
+        "category": "Communications and Messaging",
+        "auth": [
+          "API Key"
+        ],
+        "website": "https://pumble.com/help/integrations/automation-workflow-integrations/api-keys-integration/"
+      },
+      {
+        "app": "Discord",
+        "category": "Communications and Messaging",
+        "auth": [
+          "OAuth2"
+        ],
+        "website": "https://docs.discord.com/developers/intro"
+      },
+      {
+        "app": "Telegram",
+        "category": "Communications and Messaging",
+        "auth": [
+          "API Key",
+          "other"
+        ],
+        "website": "https://api-docs.telegram.org/"
+      },
+      {
+        "app": "WhatsApp Business",
+        "category": "Communications and Messaging",
+        "auth": [
+          "OAuth2",
+          "API Key"
+        ],
+        "website": "https://developers.facebook.com/documentation/business-messaging/whatsapp/get-started/"
+      },
+      {
+        "app": "Aircall",
+        "category": "Communications and Messaging",
+        "auth": [
+          "Basic"
+        ],
+        "website": "https://developer.aircall.io/tutorials/basic-authentication/"
+      },
+      {
+        "app": "Vonage",
+        "category": "Communications and Messaging",
+        "auth": [
+          "OAuth2",
+          "API Key"
+        ],
+        "website": "https://developer.vonage.com/en/home"
+      },
+      {
+        "app": "Meta Ads",
+        "category": "Marketing, Ads, Email and Social",
+        "auth": [
+          "OAuth2"
+        ],
+        "website": "https://developers.facebook.com/documentation/ads-commerce/marketing-api/"
+      },
+      {
+        "app": "GoHighLevel",
+        "category": "Marketing, Ads, Email and Social",
+        "auth": [
+          "OAuth2",
+          "token"
+        ],
+        "website": "https://marketplace.gohighlevel.com/docs/"
+      },
+      {
+        "app": "Mailchimp",
+        "category": "Marketing, Ads, Email and Social",
+        "auth": [
+          "API Key"
+        ],
+        "website": "https://mailchimp.com/developer/"
+      },
+      {
+        "app": "Klaviyo",
+        "category": "Marketing, Ads, Email and Social",
+        "auth": [
+          "API Key"
+        ],
+        "website": "https://developers.klaviyo.com/"
+      },
+      {
+        "app": "systeme.io",
+        "category": "Marketing, Ads, Email and Social",
+        "auth": [
+          "API Key"
+        ],
+        "website": "https://systeme.io"
+      },
+      {
+        "app": "Pinterest",
+        "category": "Marketing, Ads, Email and Social",
+        "auth": [
+          "OAuth2"
+        ],
+        "website": "https://developers.pinterest.com/"
+      },
+      {
+        "app": "Threads (Meta)",
+        "category": "Marketing, Ads, Email and Social",
+        "auth": [
+          "OAuth2"
+        ],
+        "website": "https://developers.facebook.com/documentation/threads/"
+      },
+      {
+        "app": "SendGrid",
+        "category": "Marketing, Ads, Email and Social",
+        "auth": [
+          "API Key",
+          "Basic"
+        ],
+        "website": "https://www.twilio.com/docs/sendgrid/for-developers/sending-email/authentication"
+      },
+      {
+        "app": "Shopify",
+        "category": "Ecommerce",
+        "auth": [
+          "OAuth2",
+          "API Key"
+        ],
+        "website": "https://shopify.dev"
+      },
+      {
+        "app": "WooCommerce",
+        "category": "Ecommerce",
+        "auth": [
+          "API Key",
+          "Basic"
+        ],
+        "website": "https://developer.woocommerce.com/docs/apis/rest-api/"
+      },
+      {
+        "app": "Salesforce Commerce Cloud",
+        "category": "Ecommerce",
+        "auth": [
+          "OAuth2"
+        ],
+        "website": "https://developer.salesforce.com/docs/commerce/commerce-api/overview"
+      },
+      {
+        "app": "Magento (Adobe Commerce)",
+        "category": "Ecommerce",
+        "auth": [
+          "OAuth2",
+          "API Key"
+        ],
+        "website": "https://developer.adobe.com/commerce/webapi/rest/reference/"
+      },
+      {
+        "app": "Squarespace",
+        "category": "Ecommerce",
+        "auth": [
+          "other"
+        ],
+        "website": "https://developers.squarespace.com/"
+      },
+      {
+        "app": "Ecwid",
+        "category": "Ecommerce",
+        "auth": [
+          "API Key"
+        ],
+        "website": "https://docs.ecwid.com/"
+      },
+      {
+        "app": "Gumroad",
+        "category": "Ecommerce",
+        "auth": [
+          "OAuth2"
+        ],
+        "website": "https://gumroad.com/api"
+      },
+      {
+        "app": "Amazon Selling Partner",
+        "category": "Ecommerce",
+        "auth": [
+          "OAuth2"
+        ],
+        "website": "https://developer.amazonservices.com/"
+      },
+      {
+        "app": "fanbasis",
+        "category": "Ecommerce",
+        "auth": [
+          "API Key"
+        ],
+        "website": "https://fanbasis.com"
+      },
+      {
+        "app": "DataForSEO",
+        "category": "Data, SEO and Scraping",
+        "auth": [
+          "Basic"
+        ],
+        "website": "https://docs.dataforseo.com/v3/auth/"
+      },
+      {
+        "app": "Apify",
+        "category": "Data, SEO and Scraping",
+        "auth": [
+          "API Key",
+          "other"
+        ],
+        "website": "https://docs.apify.com/api/v2"
+      },
+      {
+        "app": "Sherlock",
+        "category": "Data, SEO and Scraping",
+        "auth": [
+          "other"
+        ],
+        "website": "https://github.com/sherlock-project/sherlock"
+      },
+      {
+        "app": "Waterfall.io",
+        "category": "Data, SEO and Scraping",
+        "auth": [
+          "API Key"
+        ],
+        "website": "https://docs.waterfall.io/v1/authentication"
+      },
+      {
+        "app": "GitHub",
+        "category": "Developer, Infra and Data platforms",
+        "auth": [
+          "OAuth2",
+          "API Key",
+          "token"
+        ],
+        "website": "https://docs.github.com/rest/authentication"
+      },
+      {
+        "app": "Vercel",
+        "category": "Developer, Infra and Data platforms",
+        "auth": [
+          "OAuth2",
+          "API Key"
+        ],
+        "website": "https://vercel.com/docs/rest-api"
+      },
+      {
+        "app": "Netlify",
+        "category": "Developer, Infra and Data platforms",
+        "auth": [
+          "OAuth2"
+        ],
+        "website": "https://docs.netlify.com/api-and-cli-guides/api-guides/get-started-with-api/"
+      },
+      {
+        "app": "Cloudflare",
+        "category": "Developer, Infra and Data platforms",
+        "auth": [
+          "OAuth2",
+          "API Key"
+        ],
+        "website": "https://developers.cloudflare.com/api/"
+      },
+      {
+        "app": "Supabase",
+        "category": "Developer, Infra and Data platforms",
+        "auth": [
+          "OAuth2"
+        ],
+        "website": "https://supabase.com/docs"
+      },
+      {
+        "app": "Neo4j",
+        "category": "Developer, Infra and Data platforms",
+        "auth": [
+          "API Key",
+          "OAuth2"
+        ],
+        "website": "https://neo4j.com/docs/"
+      },
+      {
+        "app": "Snowflake",
+        "category": "Developer, Infra and Data platforms",
+        "auth": [
+          "OAuth2",
+          "API Key",
+          "Basic",
+          "token",
+          "other"
+        ],
+        "website": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/authentication"
+      },
+      {
+        "app": "MongoDB Atlas",
+        "category": "Developer, Infra and Data platforms",
+        "auth": [
+          "OAuth2",
+          "API Key",
+          "other"
+        ],
+        "website": "https://www.mongodb.com/docs/atlas/architecture/current/auth/authentication/"
+      },
+      {
+        "app": "Datadog",
+        "category": "Developer, Infra and Data platforms",
+        "auth": [
+          "API Key",
+          "other"
+        ],
+        "website": "https://docs.datadoghq.com/api/latest/authentication/"
+      },
+      {
+        "app": "Sentry",
+        "category": "Developer, Infra and Data platforms",
+        "auth": [
+          "OAuth2",
+          "token"
+        ],
+        "website": "https://docs.sentry.io/api/auth/"
+      },
+      {
+        "app": "Notion",
+        "category": "Productivity and Project Management",
+        "auth": [
+          "OAuth2",
+          "token"
+        ],
+        "website": "https://developers.notion.com/reference/authentication"
+      },
+      {
+        "app": "Airtable",
+        "category": "Productivity and Project Management",
+        "auth": [
+          "API Key"
+        ],
+        "website": "https://airtable.com/developers/web/api/introduction"
+      },
+      {
+        "app": "Linear",
+        "category": "Productivity and Project Management",
+        "auth": [
+          "OAuth2",
+          "API Key"
+        ],
+        "website": "https://linear.app/developers"
+      },
+      {
+        "app": "Jira",
+        "category": "Productivity and Project Management",
+        "auth": [
+          "OAuth2",
+          "API Key"
+        ],
+        "website": "https://developer.atlassian.com/cloud/jira/platform/rest/v3/"
+      },
+      {
+        "app": "Asana",
+        "category": "Productivity and Project Management",
+        "auth": [
+          "OAuth2",
+          "API Key"
+        ],
+        "website": "https://asana.com/developers"
+      },
+      {
+        "app": "Monday.com",
+        "category": "Productivity and Project Management",
+        "auth": [
+          "OAuth2"
+        ],
+        "website": "https://developer.monday.com/api-reference/"
+      },
+      {
+        "app": "ClickUp",
+        "category": "Productivity and Project Management",
+        "auth": [
+          "OAuth2",
+          "API Key"
+        ],
+        "website": "https://developer.clickup.com/docs/authentication"
+      },
+      {
+        "app": "Smartsheet",
+        "category": "Productivity and Project Management",
+        "auth": [
+          "OAuth2",
+          "API Key"
+        ],
+        "website": "https://community.smartsheet.com/en/discussion/146167/how-can-i-get-started-with-smartsheet-api"
+      },
+      {
+        "app": "Harvest",
+        "category": "Productivity and Project Management",
+        "auth": [
+          "OAuth2",
+          "API Key"
+        ],
+        "website": "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/"
+      },
+      {
+        "app": "Stripe",
+        "category": "Finance and Fintech",
+        "auth": [
+          "OAuth2",
+          "API Key"
+        ],
+        "website": "https://stripe.com/docs/api"
+      },
+      {
+        "app": "Plaid",
+        "category": "Finance and Fintech",
+        "auth": [
+          "OAuth2",
+          "API Key"
+        ],
+        "website": "https://plaid.com/docs/"
+      },
+      {
+        "app": "Binance",
+        "category": "Finance and Fintech",
+        "auth": [
+          "OAuth2",
+          "API Key"
+        ],
+        "website": "https://developers.binance.com/en"
+      },
+      {
+        "app": "Paygent Connect",
+        "category": "Finance and Fintech",
+        "auth": [
+          "API Key"
+        ],
+        "website": "https://docs.paygent.to/"
+      },
+      {
+        "app": "QuickBooks",
+        "category": "Finance and Fintech",
+        "auth": [
+          "OAuth2"
+        ],
+        "website": "https://developer.intuit.com/app/developer/qbo/docs/develop/authentication-and-authorization"
+      },
+      {
+        "app": "Brex",
+        "category": "Finance and Fintech",
+        "auth": [
+          "OAuth2"
+        ],
+        "website": "https://developer.brex.com/"
+      },
+      {
+        "app": "Fathom",
+        "category": "AI, Research and Media-native",
+        "auth": [
+          "OAuth2",
+          "API Key"
+        ],
+        "website": "https://developers.fathom.ai/"
+      },
+      {
+        "app": "Consensus",
+        "category": "AI, Research and Media-native",
+        "auth": [
+          "API Key"
+        ],
+        "website": "https://support.goconsensus.com/consensus-api-documents"
+      },
+      {
+        "app": "Mermaid CLI",
+        "category": "AI, Research and Media-native",
+        "auth": [],
+        "website": "https://github.com/mermaid-js/mermaid"
+      },
+      {
+        "app": "YouTube Transcript",
+        "category": "AI, Research and Media-native",
+        "auth": [
+          "API Key"
+        ],
+        "website": "https://transcriptapi.com/docs/api/"
+      },
+      {
+        "app": "Grain",
+        "category": "AI, Research and Media-native",
+        "auth": [
+          "OAuth2",
+          "API Key"
+        ],
+        "website": "https://developers.grain.com/"
+      }
+    ]
+  },
+  "needs_outreach": {
+    "count": 7,
+    "apps": [
+      {
+        "app": "DealCloud",
+        "category": "CRM and Sales",
+        "blocker": "needs partnership",
+        "gating_notes": "Requires admin approval and user permissions for access.",
+        "website": "https://api.docs.dealcloud.com/mcp/authentication"
+      },
+      {
+        "app": "Pylon",
+        "category": "Support and Helpdesk",
+        "blocker": "needs partnership",
+        "gating_notes": "Only Admin users can create API tokens.",
+        "website": "https://docs.usepylon.com/pylon-docs/developer/api"
+      },
+      {
+        "app": "Google Ads",
+        "category": "Marketing, Ads, Email and Social",
+        "blocker": "needs partnership",
+        "gating_notes": "A developer token is required to make Google Ads API calls.",
+        "website": "https://developers.google.com/google-ads"
+      },
+      {
+        "app": "LinkedIn Ads",
+        "category": "Marketing, Ads, Email and Social",
+        "blocker": "needs partnership",
+        "gating_notes": "Requires admin approval and partnership for access.",
+        "website": "https://learn.microsoft.com/en-us/linkedin/"
+      },
+      {
+        "app": "MrScraper",
+        "category": "Data, SEO and Scraping",
+        "blocker": "needs partnership",
+        "gating_notes": "Still in closed beta",
+        "website": "https://theresanaiforthat.com/s/crab-10.cc/most-saved/"
+      },
+      {
+        "app": "PitchBook",
+        "category": "Finance and Fintech",
+        "blocker": "needs partnership",
+        "gating_notes": "API access requires a standalone contract agreement.",
+        "website": "https://pitchbook.com"
+      },
+      {
+        "app": "Otter AI",
+        "category": "AI, Research and Media-native",
+        "blocker": "needs partnership",
+        "gating_notes": "API access is available for all Enterprise workspaces. If you do not see this feature for your workspace, contact your Otter account manager.",
+        "website": "https://help.otter.ai"
+      }
+    ]
+  }
+}

@@ -94,7 +94,12 @@ def main():
             
         cdata = category_data[cat]
         cdata["total_apps"] += 1
-        cdata[r["self_serve"]] += 1
+        # Map 'self-serve' (hyphenated value) to 'self_serve' key
+        self_serve_key = r["self_serve"].replace("-", "_")
+        if self_serve_key in cdata:
+            cdata[self_serve_key] += 1
+        else:
+            cdata[self_serve_key] = 1
         if r["api_surface"]["existing_mcp"]:
             cdata["mcp_count"] += 1
         if r["buildability_verdict"] == "buildable today":
@@ -105,9 +110,10 @@ def main():
             
     # Normalize category data for easy presentation
     for cat, data in category_data.items():
-        data["self_serve_percent"] = round((data["self_serve"] / data["total_apps"]) * 100, 2)
-        data["gated_percent"] = round((data["gated"] / data["total_apps"]) * 100, 2)
-        data["mixed_percent"] = round((data["mixed"] / data["total_apps"]) * 100, 2)
+        total = data["total_apps"]
+        data["self_serve_percent"] = round((data.get("self_serve", 0) / total) * 100, 2)
+        data["gated_percent"] = round((data.get("gated", 0) / total) * 100, 2)
+        data["mixed_percent"] = round((data.get("mixed", 0) / total) * 100, 2)
         
         # Sort auth methods
         sorted_auth = sorted(data["auth_methods"].items(), key=lambda x: x[1], reverse=True)

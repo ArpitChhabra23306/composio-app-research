@@ -1,0 +1,743 @@
+{
+  "1": {
+    "app": "Salesforce",
+    "v1_data": {
+      "id": 1,
+      "app": "Salesforce",
+      "category": "CRM and Sales",
+      "one_liner": "Salesforce is a leading CRM platform that provides tools for sales, customer service, and marketing.",
+      "auth_methods": [
+        "OAuth2",
+        "API Key"
+      ],
+      "self_serve": "self-serve",
+      "gating_notes": "Free developer edition available for immediate access.",
+      "api_surface": {
+        "type": "REST",
+        "breadth": "very broad",
+        "existing_mcp": true
+      },
+      "buildability_verdict": "buildable today",
+      "blocker": "none",
+      "evidence_url": "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/quickstart_oauth.htm",
+      "confidence": "high",
+      "agent_notes": "No significant ambiguities found in the documentation."
+    },
+    "report": {
+      "auth_methods_correct": true,
+      "self_serve_correct": false,
+      "api_surface_correct": true,
+      "blocker_correct": false,
+      "evidence_url_valid": true,
+      "mismatch_details": "Agent reported self-serve access with no blockers, but fresh docs indicate API access depends on Salesforce edition and license type, suggesting gating. Blocker should reflect potential need for specific editions or licenses.",
+      "recommended_corrections": {
+        "self_serve": "gated",
+        "blocker": "depends on Salesforce edition and license type"
+      }
+    }
+  },
+  "4": {
+    "app": "Attio",
+    "v1_data": {
+      "id": 4,
+      "app": "Attio",
+      "category": "CRM and Sales",
+      "one_liner": "Attio provides a public REST API for CRM and sales functionalities.",
+      "auth_methods": [
+        "OAuth2"
+      ],
+      "self_serve": "self-serve",
+      "gating_notes": "Free access to the API with no admin approval required.",
+      "api_surface": {
+        "type": "REST",
+        "breadth": "moderate",
+        "existing_mcp": false
+      },
+      "buildability_verdict": "buildable today",
+      "blocker": "none",
+      "evidence_url": "https://docs.attio.com/rest-api/overview",
+      "confidence": "high",
+      "agent_notes": "No ambiguities found in the documentation."
+    },
+    "report": {
+      "auth_methods_correct": false,
+      "self_serve_correct": true,
+      "api_surface_correct": true,
+      "blocker_correct": true,
+      "evidence_url_valid": true,
+      "mismatch_details": "Agent missed API Key; app supports both OAuth2 and API Key.",
+      "recommended_corrections": {
+        "auth_methods": [
+          "OAuth2",
+          "API Key"
+        ]
+      }
+    }
+  },
+  "7": {
+    "app": "Zoho CRM",
+    "v1_data": {
+      "id": 7,
+      "app": "Zoho CRM",
+      "category": "CRM and Sales",
+      "one_liner": "Zoho CRM provides a comprehensive suite of APIs for managing customer relationships and sales data.",
+      "auth_methods": [
+        "OAuth2"
+      ],
+      "self_serve": "self-serve",
+      "gating_notes": "Free developer tier available.",
+      "api_surface": {
+        "type": "REST",
+        "breadth": "broad",
+        "existing_mcp": false
+      },
+      "buildability_verdict": "buildable today",
+      "blocker": "none",
+      "evidence_url": "https://www.zoho.com/crm/developer/docs/api/v8/",
+      "confidence": "high",
+      "agent_notes": "No significant ambiguities found in the documentation."
+    },
+    "report": {
+      "auth_methods_correct": true,
+      "self_serve_correct": false,
+      "api_surface_correct": true,
+      "blocker_correct": false,
+      "evidence_url_valid": true,
+      "mismatch_details": "Agent reported self-serve access with a free developer tier, but fresh docs indicate API access is tied to the edition limits, suggesting gating based on plan level. Blocker was reported as none, but API access is limited by the edition, implying a need for a paid plan for higher limits.",
+      "recommended_corrections": {
+        "self_serve": "gated",
+        "blocker": "needs paid plan"
+      }
+    }
+  },
+  "11": {
+    "app": "Zendesk",
+    "v1_data": {
+      "id": 11,
+      "app": "Zendesk",
+      "category": "Support and Helpdesk",
+      "one_liner": "Zendesk provides a platform for customer support and helpdesk solutions.",
+      "auth_methods": [
+        "OAuth2"
+      ],
+      "self_serve": "self-serve",
+      "gating_notes": "Free developer tier available with immediate access to API credentials.",
+      "api_surface": {
+        "type": "REST",
+        "breadth": "broad",
+        "existing_mcp": false
+      },
+      "buildability_verdict": "buildable today",
+      "blocker": "none",
+      "evidence_url": "https://developer.zendesk.com/documentation/api-basics/authentication/api-tokens-to-oauth/",
+      "confidence": "high",
+      "agent_notes": "No significant ambiguities found in the documentation."
+    },
+    "report": {
+      "auth_methods_correct": false,
+      "self_serve_correct": false,
+      "api_surface_correct": true,
+      "blocker_correct": false,
+      "evidence_url_valid": true,
+      "mismatch_details": "Agent missed API Key; app supports both OAuth2 and API Key. Gating was reported as self-serve but fresh docs show it requires a paid plan for higher rate limits. Blocker was reported as none but fresh docs indicate rate limits based on plan.",
+      "recommended_corrections": {
+        "auth_methods": [
+          "OAuth2",
+          "API Key"
+        ],
+        "self_serve": "gated",
+        "blocker": "needs paid plan"
+      }
+    }
+  },
+  "17": {
+    "app": "Plain",
+    "v1_data": {
+      "id": 17,
+      "app": "Plain",
+      "category": "Support and Helpdesk",
+      "one_liner": "Plain is an API-first platform for support and helpdesk solutions.",
+      "auth_methods": [
+        "API Key"
+      ],
+      "self_serve": "self-serve",
+      "gating_notes": "Free developer tier available with API key creation.",
+      "api_surface": {
+        "type": "REST",
+        "breadth": "moderate",
+        "existing_mcp": false
+      },
+      "buildability_verdict": "buildable today",
+      "blocker": "none",
+      "evidence_url": "https://help.plain.com/article/developer",
+      "confidence": "high",
+      "agent_notes": "No significant ambiguities found in the documentation."
+    },
+    "report": {
+      "auth_methods_correct": true,
+      "self_serve_correct": true,
+      "api_surface_correct": true,
+      "blocker_correct": true,
+      "evidence_url_valid": true,
+      "mismatch_details": "",
+      "recommended_corrections": {}
+    }
+  },
+  "21": {
+    "app": "Slack",
+    "v1_data": {
+      "id": 21,
+      "app": "Slack",
+      "category": "Communications and Messaging",
+      "one_liner": "Slack is a platform for team communication and collaboration.",
+      "auth_methods": [
+        "OAuth2"
+      ],
+      "self_serve": "self-serve",
+      "gating_notes": "Free developer tier available with immediate access to credentials.",
+      "api_surface": {
+        "type": "REST",
+        "breadth": "broad",
+        "existing_mcp": false
+      },
+      "buildability_verdict": "buildable today",
+      "blocker": "none",
+      "evidence_url": "https://docs.slack.dev/authentication/",
+      "confidence": "high",
+      "agent_notes": "No significant ambiguities noted in the documentation."
+    },
+    "report": {
+      "auth_methods_correct": true,
+      "self_serve_correct": true,
+      "api_surface_correct": true,
+      "blocker_correct": true,
+      "evidence_url_valid": true,
+      "mismatch_details": "",
+      "recommended_corrections": {}
+    }
+  },
+  "24": {
+    "app": "Lark (Larksuite)",
+    "v1_data": {
+      "id": 24,
+      "app": "Lark (Larksuite)",
+      "category": "Communications and Messaging",
+      "one_liner": "Lark is a communications and messaging platform that offers various APIs for integration.",
+      "auth_methods": [
+        "OAuth2",
+        "API Key"
+      ],
+      "self_serve": "self-serve",
+      "gating_notes": "Free developer account available with immediate access to API credentials.",
+      "api_surface": {
+        "type": "REST",
+        "breadth": "broad",
+        "existing_mcp": false
+      },
+      "buildability_verdict": "buildable today",
+      "blocker": "none",
+      "evidence_url": "https://open.larksuite.com/document/home/index?lang=en-US",
+      "confidence": "high",
+      "agent_notes": "No significant ambiguities found in the documentation."
+    },
+    "report": {
+      "auth_methods_correct": true,
+      "self_serve_correct": true,
+      "api_surface_correct": true,
+      "blocker_correct": true,
+      "evidence_url_valid": true,
+      "mismatch_details": "",
+      "recommended_corrections": {}
+    }
+  },
+  "31": {
+    "app": "Google Ads",
+    "v1_data": {
+      "id": 31,
+      "app": "Google Ads",
+      "category": "Marketing, Ads, Email and Social",
+      "one_liner": "Google Ads API allows developers to manage and optimize advertising campaigns across Google's platforms.",
+      "auth_methods": [
+        "OAuth2"
+      ],
+      "self_serve": "self-serve",
+      "gating_notes": "Free developer access available with immediate credentials.",
+      "api_surface": {
+        "type": "REST",
+        "breadth": "broad",
+        "existing_mcp": false
+      },
+      "buildability_verdict": "buildable today",
+      "blocker": "none",
+      "evidence_url": "https://developers.google.com/google-ads/api",
+      "confidence": "high",
+      "agent_notes": "No significant ambiguities found in the documentation."
+    },
+    "report": {
+      "auth_methods_correct": false,
+      "self_serve_correct": false,
+      "api_surface_correct": true,
+      "blocker_correct": false,
+      "evidence_url_valid": true,
+      "mismatch_details": "Agent missed the requirement of a developer token in addition to OAuth2 for authentication. The API is not entirely self-serve as a developer token with specific access levels is required, which implies some gating. The agent reported no blocker, but a developer token is a necessary requirement.",
+      "recommended_corrections": {
+        "auth_methods": [
+          "OAuth2",
+          "Developer Token"
+        ],
+        "self_serve": "gated",
+        "blocker": "requires developer token"
+      }
+    }
+  },
+  "37": {
+    "app": "systeme.io",
+    "v1_data": {
+      "id": 37,
+      "app": "systeme.io",
+      "category": "Marketing, Ads, Email and Social",
+      "one_liner": "systeme.io provides a public API for managing contacts, subscriptions, and newsletters.",
+      "auth_methods": [
+        "API Key"
+      ],
+      "self_serve": "self-serve",
+      "gating_notes": "Free access to the public API with no immediate approval needed.",
+      "api_surface": {
+        "type": "REST",
+        "breadth": "moderate",
+        "existing_mcp": false
+      },
+      "buildability_verdict": "buildable today",
+      "blocker": "none",
+      "evidence_url": "https://help.systeme.io/article/2329-how-to-use-systeme-io-public-api",
+      "confidence": "high",
+      "agent_notes": "No significant ambiguities found; API features are clearly outlined."
+    },
+    "report": {
+      "auth_methods_correct": true,
+      "self_serve_correct": false,
+      "api_surface_correct": true,
+      "blocker_correct": false,
+      "evidence_url_valid": true,
+      "mismatch_details": "Agent reported API access as self-serve, but fresh search results suggest API access may be gated by plan. Blocker was reported as none, but fresh results indicate API access might require a specific plan.",
+      "recommended_corrections": {
+        "self_serve": "gated",
+        "blocker": "needs paid plan"
+      }
+    }
+  },
+  "41": {
+    "app": "Shopify",
+    "v1_data": {
+      "id": 41,
+      "app": "Shopify",
+      "category": "Ecommerce",
+      "one_liner": "Shopify provides APIs for building ecommerce applications and integrations.",
+      "auth_methods": [
+        "OAuth2",
+        "token"
+      ],
+      "self_serve": "self-serve",
+      "gating_notes": "Free developer account available with immediate access to APIs.",
+      "api_surface": {
+        "type": "REST+GraphQL",
+        "breadth": "broad",
+        "existing_mcp": false
+      },
+      "buildability_verdict": "buildable today",
+      "blocker": "none",
+      "evidence_url": "https://shopify.dev/docs/api/usage/authentication.md",
+      "confidence": "high",
+      "agent_notes": "No significant ambiguities found; documentation is clear."
+    },
+    "report": {
+      "auth_methods_correct": false,
+      "self_serve_correct": true,
+      "api_surface_correct": true,
+      "blocker_correct": true,
+      "evidence_url_valid": true,
+      "mismatch_details": "Agent missed API Key; app supports both OAuth2 and API Key. The rest of the findings are consistent with the fresh search results.",
+      "recommended_corrections": {
+        "auth_methods": [
+          "OAuth2",
+          "API Key"
+        ]
+      }
+    }
+  },
+  "50": {
+    "app": "fanbasis",
+    "v1_data": {
+      "id": 50,
+      "app": "fanbasis",
+      "category": "Ecommerce",
+      "one_liner": "FanBasis API allows for payment processing, subscription management, and customer engagement automation.",
+      "auth_methods": [
+        "API Key"
+      ],
+      "self_serve": "self-serve",
+      "gating_notes": "Free developer access with API key available immediately.",
+      "api_surface": {
+        "type": "REST",
+        "breadth": "moderate",
+        "existing_mcp": false
+      },
+      "buildability_verdict": "buildable today",
+      "blocker": "none",
+      "evidence_url": "https://apidocs.fan/",
+      "confidence": "high",
+      "agent_notes": "No significant ambiguities found; documentation appears clear."
+    },
+    "report": {
+      "auth_methods_correct": false,
+      "self_serve_correct": true,
+      "api_surface_correct": true,
+      "blocker_correct": true,
+      "evidence_url_valid": true,
+      "mismatch_details": "Agent missed OAuth2; fresh search results suggest OAuth2 is also supported. No evidence found contradicting self-serve access or the absence of blockers.",
+      "recommended_corrections": {
+        "auth_methods": [
+          "OAuth2",
+          "API Key"
+        ]
+      }
+    }
+  },
+  "53": {
+    "app": "Ahrefs",
+    "v1_data": {
+      "id": 53,
+      "app": "Ahrefs",
+      "category": "Data, SEO and Scraping",
+      "one_liner": "Access Ahrefs marketing and search data through APIs for custom integrations and workflows.",
+      "auth_methods": [
+        "API Key",
+        "OAuth2"
+      ],
+      "self_serve": "mixed",
+      "gating_notes": "Free test queries available, but full access may require an Enterprise plan.",
+      "api_surface": {
+        "type": "REST",
+        "breadth": "broad",
+        "existing_mcp": true
+      },
+      "buildability_verdict": "buildable today",
+      "blocker": "none",
+      "evidence_url": "https://docs.ahrefs.com/",
+      "confidence": "high",
+      "agent_notes": "Documentation mentions free test queries, but full access details may need clarification."
+    },
+    "report": {
+      "auth_methods_correct": true,
+      "self_serve_correct": false,
+      "api_surface_correct": true,
+      "blocker_correct": false,
+      "evidence_url_valid": true,
+      "mismatch_details": "Agent reported mixed self-serve/gated access, but fresh docs show API access is gated and requires at least an Advanced plan. Agent reported no blocker, but fresh docs indicate a paid plan is needed for API access.",
+      "recommended_corrections": {
+        "self_serve": "gated",
+        "blocker": "needs paid plan"
+      }
+    }
+  },
+  "60": {
+    "app": "Clay",
+    "v1_data": {
+      "id": 60,
+      "app": "Clay",
+      "category": "Data, SEO and Scraping",
+      "one_liner": "Clay provides an HTTP API for seamless integration and data management across various tools and databases.",
+      "auth_methods": [
+        "API Key",
+        "token",
+        "other"
+      ],
+      "self_serve": "self-serve",
+      "gating_notes": "No admin approval required; users can set up API access immediately.",
+      "api_surface": {
+        "type": "REST",
+        "breadth": "moderate",
+        "existing_mcp": false
+      },
+      "buildability_verdict": "buildable today",
+      "blocker": "none",
+      "evidence_url": "https://university.clay.com/docs/http-api-integration-overview",
+      "confidence": "high",
+      "agent_notes": "Documentation is clear and provides detailed setup instructions."
+    },
+    "report": {
+      "auth_methods_correct": false,
+      "self_serve_correct": false,
+      "api_surface_correct": true,
+      "blocker_correct": false,
+      "evidence_url_valid": true,
+      "mismatch_details": "Agent missed OAuth2; app supports both OAuth2 and API Key. Gating was reported as self-serve but fresh docs show it requires a paid plan for API access. Blocker was reported as none, but fresh results indicate a paid plan is needed.",
+      "recommended_corrections": {
+        "auth_methods": [
+          "OAuth2",
+          "API Key"
+        ],
+        "self_serve": "gated",
+        "blocker": "needs paid plan"
+      }
+    }
+  },
+  "61": {
+    "app": "GitHub",
+    "v1_data": {
+      "id": 61,
+      "app": "GitHub",
+      "category": "Developer, Infra and Data platforms",
+      "one_liner": "GitHub provides a REST API for accessing and managing repositories, issues, and other resources.",
+      "auth_methods": [
+        "OAuth2",
+        "API Key",
+        "token"
+      ],
+      "self_serve": "self-serve",
+      "gating_notes": "Free access to the API with rate limits; no admin approval required.",
+      "api_surface": {
+        "type": "REST",
+        "breadth": "broad",
+        "existing_mcp": false
+      },
+      "buildability_verdict": "buildable today",
+      "blocker": "none",
+      "evidence_url": "https://docs.github.com/rest/authentication",
+      "confidence": "high",
+      "agent_notes": "No significant ambiguities found in the documentation."
+    },
+    "report": {
+      "auth_methods_correct": true,
+      "self_serve_correct": true,
+      "api_surface_correct": true,
+      "blocker_correct": true,
+      "evidence_url_valid": true,
+      "mismatch_details": "",
+      "recommended_corrections": {}
+    }
+  },
+  "65": {
+    "app": "Supabase",
+    "v1_data": {
+      "id": 65,
+      "app": "Supabase",
+      "category": "Developer, Infra and Data platforms",
+      "one_liner": "Supabase provides an open-source backend as a service with authentication and database features.",
+      "auth_methods": [
+        "OAuth2",
+        "other"
+      ],
+      "self_serve": "gated",
+      "gating_notes": "Charges apply based on Monthly Active Users and other metrics.",
+      "api_surface": {
+        "type": "REST",
+        "breadth": "broad",
+        "existing_mcp": false
+      },
+      "buildability_verdict": "needs work",
+      "blocker": "needs paid plan",
+      "evidence_url": "https://supabase.com/docs/guides/auth",
+      "confidence": "high",
+      "agent_notes": "Documentation mentions various auth methods but requires a paid plan for full access."
+    },
+    "report": {
+      "auth_methods_correct": false,
+      "self_serve_correct": true,
+      "api_surface_correct": true,
+      "blocker_correct": true,
+      "evidence_url_valid": true,
+      "mismatch_details": "Agent missed API Key; app supports both OAuth2 and API Key. Gating was correctly reported as gated, and the blocker as needing a paid plan is accurate.",
+      "recommended_corrections": {
+        "auth_methods": [
+          "OAuth2",
+          "API Key"
+        ]
+      }
+    }
+  },
+  "71": {
+    "app": "Notion",
+    "v1_data": {
+      "id": 71,
+      "app": "Notion",
+      "category": "Productivity and Project Management",
+      "one_liner": "Notion is a productivity and project management tool that allows users to organize their work and collaborate.",
+      "auth_methods": [
+        "OAuth2",
+        "token"
+      ],
+      "self_serve": "self-serve",
+      "gating_notes": "Free access with personal access tokens and OAuth flow.",
+      "api_surface": {
+        "type": "REST",
+        "breadth": "moderate",
+        "existing_mcp": false
+      },
+      "buildability_verdict": "buildable today",
+      "blocker": "none",
+      "evidence_url": "https://developers.notion.com/reference/authentication",
+      "confidence": "high",
+      "agent_notes": "No significant ambiguities found in the documentation."
+    },
+    "report": {
+      "auth_methods_correct": true,
+      "self_serve_correct": true,
+      "api_surface_correct": true,
+      "blocker_correct": true,
+      "evidence_url_valid": true,
+      "mismatch_details": "",
+      "recommended_corrections": {}
+    }
+  },
+  "80": {
+    "app": "Harvest",
+    "v1_data": {
+      "id": 80,
+      "app": "Harvest",
+      "category": "Productivity and Project Management",
+      "one_liner": "Harvest is a time tracking and invoicing software for project management.",
+      "auth_methods": [
+        "OAuth2",
+        "API Key"
+      ],
+      "self_serve": "self-serve",
+      "gating_notes": "Free developer account available with immediate access to API credentials.",
+      "api_surface": {
+        "type": "REST",
+        "breadth": "moderate",
+        "existing_mcp": false
+      },
+      "buildability_verdict": "buildable today",
+      "blocker": "none",
+      "evidence_url": "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/",
+      "confidence": "high",
+      "agent_notes": "No significant ambiguities found in the documentation."
+    },
+    "report": {
+      "auth_methods_correct": true,
+      "self_serve_correct": true,
+      "api_surface_correct": true,
+      "blocker_correct": true,
+      "evidence_url_valid": true,
+      "mismatch_details": "",
+      "recommended_corrections": {}
+    }
+  },
+  "81": {
+    "app": "Stripe",
+    "v1_data": {
+      "id": 81,
+      "app": "Stripe",
+      "category": "Finance and Fintech",
+      "one_liner": "Stripe provides a powerful API for payment processing and financial transactions.",
+      "auth_methods": [
+        "API Key"
+      ],
+      "self_serve": "self-serve",
+      "gating_notes": "Free developer account available with immediate access to API keys.",
+      "api_surface": {
+        "type": "REST",
+        "breadth": "broad",
+        "existing_mcp": false
+      },
+      "buildability_verdict": "buildable today",
+      "blocker": "none",
+      "evidence_url": "https://docs.stripe.com/api",
+      "confidence": "high",
+      "agent_notes": "No significant ambiguities found in the documentation."
+    },
+    "report": {
+      "auth_methods_correct": false,
+      "self_serve_correct": true,
+      "api_surface_correct": true,
+      "blocker_correct": true,
+      "evidence_url_valid": true,
+      "mismatch_details": "Agent missed OAuth2; app supports both OAuth2 and API Key.",
+      "recommended_corrections": {
+        "auth_methods": [
+          "OAuth2",
+          "API Key"
+        ]
+      }
+    }
+  },
+  "90": {
+    "app": "PitchBook",
+    "v1_data": {
+      "id": 90,
+      "app": "PitchBook",
+      "category": "Finance and Fintech",
+      "one_liner": "PitchBook API provides access to extensive financial data for integration into business systems.",
+      "auth_methods": [
+        "API Key",
+        "token"
+      ],
+      "self_serve": "gated",
+      "gating_notes": "Requires standalone contract agreement and possibly admin approval.",
+      "api_surface": {
+        "type": "REST",
+        "breadth": "broad",
+        "existing_mcp": false
+      },
+      "buildability_verdict": "needs work",
+      "blocker": "needs partnership",
+      "evidence_url": "https://pitchbook.com/help/PitchBook-api",
+      "confidence": "high",
+      "agent_notes": "Access to the API requires a request to the Direct Data team, indicating a gated process."
+    },
+    "report": {
+      "auth_methods_correct": false,
+      "self_serve_correct": true,
+      "api_surface_correct": true,
+      "blocker_correct": false,
+      "evidence_url_valid": true,
+      "mismatch_details": "Agent missed OAuth2; fresh docs mention OpenAPI support which often includes OAuth2. Blocker was reported as needing partnership, but fresh docs suggest it requires a paid plan.",
+      "recommended_corrections": {
+        "auth_methods": [
+          "OAuth2",
+          "API Key"
+        ],
+        "blocker": "needs paid plan"
+      }
+    }
+  },
+  "92": {
+    "app": "Otter AI",
+    "v1_data": {
+      "id": 92,
+      "app": "Otter AI",
+      "category": "AI, Research and Media-native",
+      "one_liner": "Otter.ai provides programmatic access to retrieve channels, conversations, transcripts, and more from your Otter account.",
+      "auth_methods": [
+        "API Key"
+      ],
+      "self_serve": "gated",
+      "gating_notes": "Public API available only for Enterprise workspaces.",
+      "api_surface": {
+        "type": "REST",
+        "breadth": "moderate",
+        "existing_mcp": false
+      },
+      "buildability_verdict": "needs work",
+      "blocker": "needs paid plan",
+      "evidence_url": "https://help.otter.ai/hc/en-us/articles/36130822688279-Otter-ai-Public-API",
+      "confidence": "high",
+      "agent_notes": "API access is limited to Enterprise users, which may restrict broader developer access."
+    },
+    "report": {
+      "auth_methods_correct": false,
+      "self_serve_correct": true,
+      "api_surface_correct": true,
+      "blocker_correct": true,
+      "evidence_url_valid": true,
+      "mismatch_details": "Agent missed OAuth2; app supports both OAuth2 and API Key. The fresh search results indicate the use of an access token for authentication.",
+      "recommended_corrections": {
+        "auth_methods": [
+          "OAuth2",
+          "API Key"
+        ]
+      }
+    }
+  }
+}
