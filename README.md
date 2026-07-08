@@ -133,11 +133,13 @@ To generate the final HTML page from the JSON data:
 python analysis/build_html.py
 ```
 
-**To view the report**, simply double-click the `site/index.html` file in your File Explorer / Finder, or run one of these commands to open it directly from the terminal:
+**To view the report**, you can start a local server to view it in your browser without file-path issues:
+```bash
+python -m http.server 8080 --directory site
+```
+Then open your browser to: [http://localhost:8080](http://localhost:8080)
 
-* **Mac:** `open site/index.html`
-* **Windows:** `start site\index.html`
-* **Linux:** `xdg-open site/index.html`
+*(Alternatively, you can just double-click the `site/index.html` file in your File Explorer, or use `start site\index.html` in Windows).*
 
 ---
 
