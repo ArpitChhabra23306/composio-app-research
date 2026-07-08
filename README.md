@@ -46,28 +46,28 @@ composio-app-research/
 │   ├── apps.json                  # input: 100 apps with category + hint URL
 │   ├── results_v1.json            # V1: gpt-4o-mini, basic prompt (30% accuracy)
 │   ├── results_v2.json            # V2: gpt-4o, 14 reruns on known-bad apps
-│   ├── results_v3.json            # V3: gpt-4o, full fresh run, corrected pipeline
-│   ├── results_v3.jsonl           # crash-safe incremental log for V3
+│   ├── results_v2.json            # V3: gpt-4o, full fresh run, corrected pipeline
+│   ├── results_v2.jsonl           # crash-safe incremental log for V3
 │   ├── patterns.json              # aggregated distributions per category
 │   ├── version_comparison.json    # per-app V1 vs V2 vs V3 diff table
 │   ├── accuracy_all.json          # accuracy stats across all versions
 │   ├── verification_sample.json   # V1 20-app manual verification
-│   ├── verification_v3.json       # V3 20-app stratified verification
+│   ├── verification_v2.json       # V3 20-app stratified verification
 │   └── failures.json              # apps that failed all retries
 │
 ├── agent/
 │   ├── research_agent.py          # original V1 agent
-│   ├── research_agent_v3_full.py  # V3 full run (all 100 apps)
+│   ├── research_agent_v2.py  # V3 full run (all 100 apps)
 │   ├── common.py                  # shared pipeline logic (SDK, extraction, failure handling)
 │   ├── prompts.py                 # system prompt + user prompt template
 │   ├── verify_agent.py            # V1/V2 verification script
-│   ├── verify_v3.py               # V3 stratified verification
+│   ├── verify_v2.py               # V3 stratified verification
 │   └── rerun_v2.py                # targeted rerun (known-bad or low-confidence scope)
 │
 ├── analysis/
 │   ├── patterns.py                # aggregates results into patterns.json
 │   ├── compare_versions.py        # generates V1/V2/V3 comparison tables
-│   └── build_html_v3.py           # builds the final index.html
+│   └── build_html.py           # builds the final index.html
 │
 └── site/
     └── index.html                 # ← THE FINAL DELIVERABLE (open this)
@@ -95,18 +95,18 @@ cp .env.example .env
 ### 3. Run the full pipeline (all 100 apps, ~35 minutes)
 
 ```bash
-python agent/research_agent_v3_full.py
+python agent/research_agent_v2.py
 ```
 
 Resume safely after a crash (already-done apps are skipped):
 ```bash
-python agent/research_agent_v3_full.py  # just re-run, it resumes from results_v3.jsonl
+python agent/research_agent_v2.py  # just re-run, it resumes from results_v2.jsonl
 ```
 
 ### 4. Run verification on a stratified 20-app sample
 
 ```bash
-python agent/verify_v3.py
+python agent/verify_v2.py
 ```
 
 ### 5. Generate comparison stats across all versions
@@ -119,7 +119,7 @@ python analysis/patterns.py
 ### 6. Build the final HTML report
 
 ```bash
-python analysis/build_html_v3.py
+python analysis/build_html.py
 # Output: site/index.html
 ```
 
@@ -195,7 +195,7 @@ apps.json (100 apps)
 |---|---|---|---|---|
 | **V1** | gpt-4o-mini | 100 apps (all) | ~30% | Baseline |
 | **V2** | gpt-4o | 14 known-bad reruns | ~75% | Better prompt, better model |
-| **V3** | gpt-4o | 100 apps (full fresh) | See verification_v3.json | Corrected SDK, honest failures |
+| **V3** | gpt-4o | 100 apps (full fresh) | See verification_v2.json | Corrected SDK, honest failures |
 
 **Critical bug fixed in V3 (not in V1/V2):**
 - `extracted.get("self_serve", "self-serve")` → **silently converted every failure to "self-serve"**. This was the root cause of the inflated "self-serve" stats in V1.

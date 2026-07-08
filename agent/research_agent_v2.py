@@ -1,10 +1,10 @@
 """
-research_agent_v3_full.py — Full V3 pipeline run across all 100 apps.
+research_agent_v2.py — Full V3 pipeline run across all 100 apps.
 
 This is the clean, post-Claude-review version that:
-  - Writes to results_v3.json (separate from v1/v2 so we can compare all three)
+  - Writes to results_v2.json (separate from v1/v2 so we can compare all three)
   - Imports all logic from common.py (no copy-paste)
-  - Crash-safe incremental writes to results_v3.jsonl
+  - Crash-safe incremental writes to results_v2.jsonl
   - Honest failure defaults — no silent optimistic guesses
   - Uses gpt-4o with temperature=0 throughout
   - Full resume support — safe to interrupt and restart
@@ -19,8 +19,8 @@ from common import search_and_fetch_docs, extract_metadata, build_result_record
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 APPS_FILE    = os.path.join(BASE_DIR, "data", "apps.json")
-RESULTS_FILE = os.path.join(BASE_DIR, "data", "results_v3.json")
-PROGRESS_FILE= os.path.join(BASE_DIR, "data", "results_v3.jsonl")
+RESULTS_FILE = os.path.join(BASE_DIR, "data", "results_v2.json")
+PROGRESS_FILE= os.path.join(BASE_DIR, "data", "results_v2.jsonl")
 
 MODEL = "gpt-4o"
 
@@ -53,7 +53,7 @@ def run(batch_size=None, start_from=None):
 
     total = len(apps)
     remaining = [a for a in apps if a["id"] not in done_ids]
-    print(f"\nV3 Full Run | {len(remaining)} apps to process (of {total} total) | model={MODEL}\n")
+    print(f"\nV2 Full Run | {len(remaining)} apps to process (of {total} total) | model={MODEL}\n")
 
     with open(PROGRESS_FILE, "a", encoding="utf-8") as pf:
         for i, app in enumerate(remaining):
@@ -86,7 +86,7 @@ def run(batch_size=None, start_from=None):
                 }
                 print(f"  PIPELINE ERROR: {e}")
 
-            record["v3_run"] = True
+            record["v2_run"] = True
             results.append(record)
             pf.write(json.dumps(record, ensure_ascii=False) + "\n")
             pf.flush()
@@ -108,7 +108,7 @@ def run(batch_size=None, start_from=None):
     flagged = [r for r in results_sorted if r.get("needs_human_review")]
     unknown  = [r for r in results_sorted if r.get("buildability_verdict") == "unknown"]
     print(f"\n{'='*55}")
-    print(f"V3 COMPLETE: {len(results_sorted)}/100 apps processed")
+    print(f"V2 COMPLETE: {len(results_sorted)}/100 apps processed")
     print(f"  Flagged for review: {len(flagged)}")
     print(f"  Unknown (pipeline errors): {len(unknown)}")
     print(f"  Results written to: {RESULTS_FILE}")

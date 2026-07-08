@@ -92,7 +92,7 @@
 <div class="hero">
   <h1>Composio App Intelligence Report</h1>
   <p>AI agent pipeline research: authentication patterns, gating, API surfaces, and buildability across 100 developer tools — built with the Composio SDK + gpt-4o.</p>
-  <span class="version-badge">Dataset: V3 (Post-Claude Fix) &nbsp;|&nbsp; Generated: 2026-07-08 23:02 UTC &nbsp;|&nbsp; 100 apps researched</span>
+  <span class="version-badge">Dataset: V2 (Corrected) &nbsp;|&nbsp; Generated: 2026-07-08 23:11 UTC &nbsp;|&nbsp; 100 apps researched</span>
 </div>
 
 <!-- ═══════════════════════════════════════════════════════════════════════
@@ -2233,12 +2233,12 @@
        → Full pipeline crash → honest error row still written
   |
   v
-<span class="ok">STEP 5: PERSIST</span>  Incremental write to results_v3.jsonl (crash-safe)
-       → Final write to results_v3.json
+<span class="ok">STEP 5: PERSIST</span>  Incremental write to results_v2.jsonl (crash-safe)
+       → Final write to results_v2.json
        → patterns.py aggregates distributions per category
   |
   v
-<span class="ok">STEP 6: VERIFY</span>   verify_v3.py — stratified 20-app sample
+<span class="ok">STEP 6: VERIFY</span>   verify_v2.py — stratified 20-app sample
        → Fresh independent web search for each app
        → gpt-4o cross-checks agent claims vs fresh docs
        → Reports field-level accuracy + v1 vs v3 improvements
@@ -2255,8 +2255,8 @@
 <footer>
   <p>Built with <strong>Composio SDK</strong> + <strong>gpt-4o</strong> | 
      Data: <a href="https://github.com">View Source Repo</a> | 
-     Generated: 2026-07-08 23:02 UTC</p>
-  <p style="margin-top:8px">Results file: results_v3.json &nbsp;|&nbsp; Verification: 11 apps checked</p>
+     Generated: 2026-07-08 23:11 UTC</p>
+  <p style="margin-top:8px">Results file: results_v2.json &nbsp;|&nbsp; Verification: pending apps checked</p>
 </footer>
 
 <script>

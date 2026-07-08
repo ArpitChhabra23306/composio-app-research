@@ -1,7 +1,7 @@
 """
-verify_v3.py — Verification script for the V3 run.
+verify_v2.py — Verification script for the V2 run.
 
-Picks a stratified random sample of 20 apps from results_v3.json,
+Picks a stratified random sample of 20 apps from results_v2.json,
 re-checks them independently using fresh web searches + doc fetches,
 and reports field-level accuracy against the agent's answers.
 
@@ -27,9 +27,9 @@ load_dotenv()
 client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-V3_FILE = os.path.join(BASE_DIR, "data", "results_v3.json")
+V3_FILE = os.path.join(BASE_DIR, "data", "results_v2.json")
 V1_FILE = os.path.join(BASE_DIR, "data", "results_v1.json")
-OUTPUT  = os.path.join(BASE_DIR, "data", "verification_v3.json")
+OUTPUT  = os.path.join(BASE_DIR, "data", "verification_v2.json")
 
 # The 14 known-bad IDs from V1 that we re-ran in V2/V3
 V1_KNOWN_BAD = {1, 4, 7, 11, 31, 37, 41, 50, 53, 60, 65, 81, 90, 92}
@@ -208,7 +208,7 @@ def compute_stats(verifications):
 
 def main():
     if not os.path.exists(V3_FILE):
-        print(f"ERROR: {V3_FILE} not found — run research_agent_v3_full.py first")
+        print(f"ERROR: {V3_FILE} not found — run research_agent_v2.py first")
         return
 
     v3 = json.load(open(V3_FILE, encoding="utf-8"))

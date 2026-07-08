@@ -98,5 +98,5 @@ We conducted a manual verification of 8 random apps from the final dataset:
 
 1. **SDK Execute Path:** We kept the `composio_client.client.tools.execute(tool_slug=...)` call path. The suggested alternative `c.tools.execute(slug=...)` throws a `ToolVersionRequiredError` when executed without version arguments.
 2. **CP1252 Print Fixes:** Removed all non-ASCII symbols (such as right arrow `→` and warning `⚠`) from console logging to prevent cp1252 encoding crashes on Windows host environments.
-3. **Save/Resume Safety:** In `research_agent_v3.py`, we implement a JSONL progress log for crash recovery.
+3. **Save/Resume Safety:** In `research_agent_v2.py`, we implement a JSONL progress log for crash recovery.
 4. **Preserve Previous Reruns:** Updated `rerun_v2.py` to seed from `results_v2.json` if it already exists, ensuring multiple consecutive runs do not overwrite previously corrected data.

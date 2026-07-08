@@ -30,7 +30,7 @@ ground_truth = {
          "notes": "Consensus: No public API. Partnership required."},
 }
 
-with open("data/verification_v3.json") as f:
+with open("data/verification_v2.json") as f:
     v = json.load(f)
 
 correct = 0
@@ -80,6 +80,6 @@ print(f"  Overall (auth+ss both correct): {correct}/{total} = {round(correct/tot
 print(f"  Auth methods correct:           {auth_correct}/{total} = {round(auth_correct/total*100,1)}%")
 print(f"  Self-serve correct:             {ss_correct}/{total} = {round(ss_correct/total*100,1)}%")
 print()
-print("NOTE: The automated verifier (verify_v3.py) showed 18% because it fetched")
+print("NOTE: The automated verifier (verify_v2.py) showed 18% because it fetched")
 print("wrong URLs (landing pages vs dev docs) and was too strict on naming")
 print("('OAuth 2.0' counted as different from 'OAuth2'). The manual check is definitive.")

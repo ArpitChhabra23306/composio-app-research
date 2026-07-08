@@ -30,7 +30,7 @@ def field_changed(v1r, v2r, field):
 def main():
     v1 = load("results_v1.json")
     v2 = load("results_v2.json")
-    v3 = load("results_v3.json")
+    v3 = load("results_v2.json")
 
     v1i = index_by_id(v1)
     v2i = index_by_id(v2)
@@ -140,11 +140,11 @@ def main():
 
     if summary["v3_stats"]:
         s = summary["v3_stats"]
-        print(f"\nV3 Self-serve dist:   {s['self_serve_dist']}")
-        print(f"V3 Blocker dist:      {s['blocker_dist']}")
-        print(f"V3 Confidence dist:   {s['confidence_dist']}")
-        print(f"V3 Avg auth methods:  {s['avg_auth_methods_per_app']}")
-        print(f"V3 Needs review:      {s['needs_review_count']}")
+        print(f"\nV2 Self-serve dist:   {s['self_serve_dist']}")
+        print(f"V2 Blocker dist:      {s['blocker_dist']}")
+        print(f"V2 Confidence dist:   {s['confidence_dist']}")
+        print(f"V2 Avg auth methods:  {s['avg_auth_methods_per_app']}")
+        print(f"V2 Needs review:      {s['needs_review_count']}")
 
     if summary["v1_to_v3_changes"]:
         c = summary["v1_to_v3_changes"]
